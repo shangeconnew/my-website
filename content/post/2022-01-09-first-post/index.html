@@ -1,0 +1,31 @@
+---
+title: "First R Markdown Post"
+author: "Frida Gomam"
+date: 2022-01-09T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="first-one" class="section level2">
+<h2>first one</h2>
+<ol style="list-style-type: lower-alpha">
+<li>Every number in <span class="math inline">\([0, 1]\)</span> has a ternary expansion</li>
+</ol>
+<p><span class="math inline">\(x=\sum_{k=1}^{\infty}\frac{a_k}{3^k},\)</span> where <span class="math inline">\({a_k}=0,1,2\)</span></p>
+<p>Prove that <span class="math inline">\(x\in\mathcal{C}\)</span>, the Cantor set, if and only if x has a representation as above where every ak is either <span class="math inline">\(0\)</span> or <span class="math inline">\(2\)</span>.</p>
+<p>Proof. (⇒) Let <span class="math inline">\(x\in\mathcal{C}.\)</span> We build a ternary expansion for x of the desired form as follows.Consider C1. It must
+be that x belongs to one of <span class="math inline">\([0,\frac{1}{3}]\)</span> (in which case let first digit of the ternary expansion for <span class="math inline">\(x\)</span> be <span class="math inline">\(0\)</span>) or <span class="math inline">\([ \frac{2}{3},1]\)</span> (in
+which case let first digit of the ternary expansion for <span class="math inline">\(x\)</span> be <span class="math inline">\(2\)</span>). Next, consider C2. The interval of C1 to which
+x currently belongs will be divided into three subintervals, and so we append a 0 to the ternary expansion
+of x if it belongs to the leftmost subinterval or a 2 if it belongs to the rightmost subinterval. Continuing in
+this way, we see that x has an associated ternary expansion containing only the digits 0 and 2.</p>
+<p>(⇐) Let<span class="math inline">\(x=\sum_{k=1}^{\infty}\frac{a_k}{3^k},\)</span> where <span class="math inline">\({a_k}=0,1,2\)</span></p>
+<p>We can locate x on the real line as follows. If a1 = 0, we choose the left subinterval of C1. If a1 = 2,
+we choose the rightmost subinterval of C1. When we form C2, the interval we have just chosen will be
+subdivided into three subintervals. If a2 = 0, we select the leftmost subinterval. If a2 = 2, we select the
+rightmost subinterval. Continue in this way. Since the length of these intervals can be made arbitrarily
+small, we see that the ternary expansion of x uniquely specifies its location on the real line.</p>
+</div>
