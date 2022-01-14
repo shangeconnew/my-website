@@ -17,9 +17,9 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://github.com/shangeconnew/my-website
+    - name: Canvas
+      url: https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
