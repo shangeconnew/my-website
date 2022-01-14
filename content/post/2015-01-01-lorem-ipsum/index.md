@@ -1,5 +1,5 @@
 ---
-date: "2022-01-19T13:09:13-06:00"
+date: "week 1"
 title: Course Syllabus
 ---
 
