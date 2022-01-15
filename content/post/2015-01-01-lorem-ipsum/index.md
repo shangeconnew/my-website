@@ -1,7 +1,11 @@
 ---
-date: "week 1"
-title: Course Syllabus
+title: 'Week 1'
+subtitle: Course Syllabus
+date: "2022-01-14T00:00:00Z"
+featured: false
+draft: false
 ---
+
 
 ##  Instructor 
 Dr. Shengwu Shang
