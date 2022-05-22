@@ -1,5 +1,5 @@
 ---
-title: "Week 2"
+title: "经济贫论：亚当斯密错了！"
 author: ''
 date: '2022-05-22'
 slug: week-2
