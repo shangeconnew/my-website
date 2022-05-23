@@ -9,6 +9,4 @@ tags: []
 
 # 首先看电影《美丽心灵》片段
 
-<video width="320" height="240">
-<source src="media/A Beautiful Mind.mp4" type="video/mp4">
-</video>
+![](https://youtu.be/zNzZ1PfUDNk)
