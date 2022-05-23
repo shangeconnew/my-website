@@ -12,3 +12,5 @@ tags: []
 ```{r, eval=TRUE}
 blogdown::shortcode("youtube", "CemLiSI5ox8")
 ```
+
+ 这是一部2001年的电影，讲的是诺贝尔经济学奖获得者约翰纳什（JOHN NASH)的故事.
