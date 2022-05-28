@@ -1,0 +1,31 @@
+---
+title: "Samuel from Eyster Pool"
+author: ''
+date: '2022-05-27'
+output:
+  html_document:
+    df_print: paged
+categories: []
+tags: []
+slug: samuel-from-eyster-pool
+---
+
+1. I met him in the usual party room; he was born in 2005 and wants to go the a trade school, becoming a weltch.
+- for trade school, refer 
+https://www.usnews.com/education/best-colleges/articles/a-guide-to-trade-schools-and-vocational-programs
+
+Her sister will go the west point in the Fall, which is very hard to get in. She has to throw a basketball for at least 50 yards while knelting down.
+
+2. He draw a picture like this"
+
+![hand drawing](/image/samuel.jpg)
+<!-- ![](images/samuel.jpg) -->
+
+3. Ian mentioned Galileo's famous line when we use baseball bat to hold the bag of balls:
+ “Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.” -Archimedes
+ 
+ I made the mistake: he is right!
+ 
+ ![Archimedes](/image/archimedes_quotes.jpg)
+ 
+ 

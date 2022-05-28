@@ -1,0 +1,19 @@
+---
+title: Why I don’t use the term “fixed and random effects”
+author: Andrew Gelman
+date: '2022-05-28'
+slug: why-i-don-t-use-the-term-fixed-and-random-effects
+categories: []
+tags: []
+---
+
+- I really like [his points](https://statmodeling.stat.columbia.edu/2005/01/25/why_i_dont_use/?utm_campaign=Next%20%E2%80%94%20Today%20I%20Learned%20About%20R&utm_medium=email&utm_source=Revue%20newsletter)
+and his [youtube video](https://www.youtube.com/watch?v=4v_tnWXGX8o)
+
+- Today (5/27) is also the last day of Ian's Swimming in Eyster Pool.
+
+- setup [R](https://learnr-examples.shinyapps.io/ex-setup-r/#section-install-r)
+
+- [learnr](https://rstudio.github.io/learnr/)
+
+- [Models are about what changes, and what doesn't](https://www.magesblog.com/post/modelling-change/)
