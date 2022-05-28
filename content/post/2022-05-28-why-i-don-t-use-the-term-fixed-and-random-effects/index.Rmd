@@ -17,3 +17,5 @@ and his [youtube video](https://www.youtube.com/watch?v=4v_tnWXGX8o)
 - [learnr](https://rstudio.github.io/learnr/)
 
 - [Models are about what changes, and what doesn't](https://www.magesblog.com/post/modelling-change/)
+
+- [More implausible numbers from Columbia University’s U.S. News ranking](https://statmodeling.stat.columbia.edu/)
