@@ -1,0 +1,32 @@
+---
+title: "解密美国的通货膨胀"
+author: ''
+date: '2022-06-01'
+slug: ''
+categories: []
+tags: []
+---
+
+关于通货膨胀，我略知一二；我刚才去BLS 查了一下，向大经济学家的数据没有错，数据奉上您可以确认。
+
+一般来说，美国的通货膨胀有两种计算方法：
+
+- 1. 通过消费者价格指数（CPI), 这是由美国劳工部统计局（BLS)发布的；
+
+- 2. 通过GDP去胀因子（GDP Deflator),
+这是由美国商务部经济分析局（BEA)发布的. 
+
+方法1是月度数据，最新见下图。
+
+![](/image/12-month-percentage-chan.png)
+[data](/data/inflation.csv)
+
+[link](https://www.bls.gov/charts/consumer-price-index/consumer-price-index-by-category.htm)
+
+方法2的只可能有季度数据，最新见下图。
+
+![](/image/GDP_Dflator.png)
+
+[BEA]( https://www.bea.gov/data/prices-inflation/gdp-price-deflator)
+
+我略知一二的原因是我以前就是干这个的：每天就是找数据做表作图，弄得我后来看到那些东西就想回避。
