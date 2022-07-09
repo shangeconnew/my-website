@@ -10,9 +10,9 @@ tags: []
 - 1. Install the [Asymptote](https://sourceforge.net/projects/asymptote/files/latest/download?source=files) (the lastest version, I would recommend; now is 2.81); I assume you already have [WinEdit](https://www.winedt.com/) and [MikTex](https://miktex.org/) installed. There are three websites which I think are useful:
 
 
-- 2. Generate a `Tex` file, mine is [asymptote](/tex/asymptote.tex), which is from [AoPS website](https://artofproblemsolving.com/wiki/index.php/Asymptote:_Advanced_Configuration). First `Latex` button, which I think it would generate a `.asy` file. Then, `Asymptote` the `.asy` file into `.PostScript` file. Actually there are two ways to do: first is the link [here](https://tex.stackexchange.com/questions/83035/using-asymptote-with-miktex); you could embed the `Asymptote` into your `WinEdit`. But from [here](https://www.winedt.org/config/menus/Asymptote.html), they don't have all the `.edt` files(Macros) for all versions of `WinEdit`. For example, mine is 5.5 which does not have one. So I just open the `.asy` file with `Asymptote` manually. As long as you have the `.PostScript` file generated, you're fine.
+- 2. Generate a `Tex` file, mine is [asymptote](/tex/asymptote.tex), which is from [AoPS website](https://artofproblemsolving.com/wiki/index.php/Asymptote:_Advanced_Configuration). First `Latex` button, which I think it would generate a `.asy` file. Then, `Asymptote` the `.asy` file into `.PostScript` file. Actually there are two ways to do it: first is the link [here](https://tex.stackexchange.com/questions/83035/using-asymptote-with-miktex); you could embed the `Asymptote` into your `WinEdit`. But from [here](https://www.winedt.org/config/menus/Asymptote.html), they don't have all the `.edt` files(Macros) for all versions of `WinEdit`. For example, mine is 5.5 which does not have one. So I just open the `.asy` file with `Asymptote` manually. As long as you have the `.PostScript` file generated, you're fine.
 
-- 3. `Latex` again, which would generate the `.pdf` file for the figure from `Asymptote`. There is a common error in this step: the file name of `.pdf` file might have the name as the `%your .PostScript file file name%-1-eps-converted-to`, which should be the same name. For my case, I followed the help [here](https://tex.stackexchange.com/questions/351724/eps-to-pdf-remove-eps-converted-to-from-pdf-filename), and I add two lines in the preamble of my Tex file: 
+- 3. `Latex` again, which would generate the `.pdf` file for the figure from `Asymptote`. There is a common error in this step: the file name of `.pdf` file might have the name as the `%your .PostScript file file name%-1-eps-converted-to`, which should be the same name. For my case, I followed the help [here](https://tex.stackexchange.com/questions/351724/eps-to-pdf-remove-eps-converted-to-from-pdf-filename), and I add two lines in the preamble of my `Tex` file: 
 
 ````
 \usepackage{epstopdf}
@@ -22,3 +22,5 @@ tags: []
 
 ````
 4. Last, `PDFLatex`, you would get the .pdf file you want: for my case, [asymptote](/pdf/asymptote.pdf).
+
+5. Online Asymptote codeing: http://asymptote.ualberta.ca/

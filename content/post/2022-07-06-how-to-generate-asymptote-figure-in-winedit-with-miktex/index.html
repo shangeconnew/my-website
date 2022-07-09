@@ -14,10 +14,10 @@ tags: []
 <li>Install the <a href="https://sourceforge.net/projects/asymptote/files/latest/download?source=files">Asymptote</a> (the lastest version, I would recommend; now is 2.81); I assume you already have <a href="https://www.winedt.com/">WinEdit</a> and <a href="https://miktex.org/">MikTex</a> installed. There are three websites which I think are useful:</li>
 </ol></li>
 <li><ol start="2" style="list-style-type: decimal">
-<li>Generate a <code>Tex</code> file, mine is <a href="/tex/asymptote.tex">asymptote</a>, which is from <a href="https://artofproblemsolving.com/wiki/index.php/Asymptote:_Advanced_Configuration">AoPS website</a>. First <code>Latex</code> button, which I think it would generate a <code>.asy</code> file. Then, <code>Asymptote</code> the <code>.asy</code> file into <code>.PostScript</code> file. Actually there are two ways to do: first is the link <a href="https://tex.stackexchange.com/questions/83035/using-asymptote-with-miktex">here</a>; you could embed the <code>Asymptote</code> into your <code>WinEdit</code>. But from <a href="https://www.winedt.org/config/menus/Asymptote.html">here</a>, they don’t have all the <code>.edt</code> files(Macros) for all versions of <code>WinEdit</code>. For example, mine is 5.5 which does not have one. So I just open the <code>.asy</code> file with <code>Asymptote</code> manually. As long as you have the <code>.PostScript</code> file generated, you’re fine.</li>
+<li>Generate a <code>Tex</code> file, mine is <a href="/tex/asymptote.tex">asymptote</a>, which is from <a href="https://artofproblemsolving.com/wiki/index.php/Asymptote:_Advanced_Configuration">AoPS website</a>. First <code>Latex</code> button, which I think it would generate a <code>.asy</code> file. Then, <code>Asymptote</code> the <code>.asy</code> file into <code>.PostScript</code> file. Actually there are two ways to do it: first is the link <a href="https://tex.stackexchange.com/questions/83035/using-asymptote-with-miktex">here</a>; you could embed the <code>Asymptote</code> into your <code>WinEdit</code>. But from <a href="https://www.winedt.org/config/menus/Asymptote.html">here</a>, they don’t have all the <code>.edt</code> files(Macros) for all versions of <code>WinEdit</code>. For example, mine is 5.5 which does not have one. So I just open the <code>.asy</code> file with <code>Asymptote</code> manually. As long as you have the <code>.PostScript</code> file generated, you’re fine.</li>
 </ol></li>
 <li><ol start="3" style="list-style-type: decimal">
-<li><code>Latex</code> again, which would generate the <code>.pdf</code> file for the figure from <code>Asymptote</code>. There is a common error in this step: the file name of <code>.pdf</code> file might have the name as the <code>%your .PostScript file file name%-1-eps-converted-to</code>, which should be the same name. For my case, I followed the help <a href="https://tex.stackexchange.com/questions/351724/eps-to-pdf-remove-eps-converted-to-from-pdf-filename">here</a>, and I add two lines in the preamble of my Tex file:</li>
+<li><code>Latex</code> again, which would generate the <code>.pdf</code> file for the figure from <code>Asymptote</code>. There is a common error in this step: the file name of <code>.pdf</code> file might have the name as the <code>%your .PostScript file file name%-1-eps-converted-to</code>, which should be the same name. For my case, I followed the help <a href="https://tex.stackexchange.com/questions/351724/eps-to-pdf-remove-eps-converted-to-from-pdf-filename">here</a>, and I add two lines in the preamble of my <code>Tex</code> file:</li>
 </ol></li>
 </ul>
 <pre><code>\usepackage{epstopdf}
@@ -26,5 +26,6 @@ tags: []
 }
 </code></pre>
 <ol start="4" style="list-style-type: decimal">
-<li>Last, <code>PDFLatex</code>, you would get the .pdf file you want: for my case, <a href="/pdf/asymptote.pdf">asymptote</a>.</li>
+<li><p>Last, <code>PDFLatex</code>, you would get the .pdf file you want: for my case, <a href="/pdf/asymptote.pdf">asymptote</a>.</p></li>
+<li><p>Online Asymptote codeing: <a href="http://asymptote.ualberta.ca/" class="uri">http://asymptote.ualberta.ca/</a></p></li>
 </ol>
