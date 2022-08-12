@@ -24,3 +24,6 @@ tags: []
 4. Last, `PDFLatex`, you would get the .pdf file you want: for my case, [asymptote](/pdf/asymptote.pdf).
 
 5. Online Asymptote codeing: http://asymptote.ualberta.ca/
+
+6. 7/21/2022, I find this trick: first `PDFLatex` then, would get the same result for one pictures, and get the result for two pictures in which case the `Latex` does not work:
+https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote
