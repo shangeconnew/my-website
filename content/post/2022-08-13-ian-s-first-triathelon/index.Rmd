@@ -1,0 +1,9 @@
+---
+title: Ian's first Triathelon
+author: ''
+date: '2022-08-13'
+slug: ian-s-first-triathelon
+categories: []
+tags: []
+---
+## First Triathelon for Ian!
