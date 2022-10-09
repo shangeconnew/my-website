@@ -1,0 +1,62 @@
+---
+title: "have the ear"
+author: ''
+date: '2022-10-03'
+slug: have-the-ear
+categories: []
+tags: []
+---
+
+## have the ear of someone
+
+- [idiom](https://www.collinsdictionary.com/us/dictionary/english/have-the-ear-of)
+`to be in a favorable position to talk to and influence; be heeded by`
+
+- When I first heard the term and I knew it's an idom. But I was washing the dishes, I did not look it up immediately. It took me several days to find it finally!
+
+## What cities can do better to protect themselves from hurricanes and other floods
+
+- [All Things Considered](https://www.npr.org/2022/10/03/1126282687/what-cities-can-do-better-to-protect-themselves-from-hurricanes-and-other-floods)
+
+- Transcripts:
+
+`NPR's Ailsa Chang speaks with civil engineering professor Brett Sanders about what's needed in terms of infrastructure planning to make communities more resilient to serious floods and storms.`
+
+````{verbatim}
+AILSA CHANG, HOST:
+
+As if Hurricane Ian didn't cause enough damage, hurricanes are only growing stronger and more frequent due to climate change - same with other mass flooding events. So how can communities better protect themselves from rising waters? Well, to help us answer that question, I talked earlier with Brett Sanders. He's a professor of civil engineering at the University of California Irvine, and he specializes in urban flooding. And I started by asking him, are we seeing storm damage more often now? And if so, why?
+
+BRETT SANDERS: We're seeing storm damage increase geometric rates. And the reason is several-fold. First of all, people are increasingly moving into cities. And in the U.S., they're moving more and more to coastal cities. And so we're seeing more and more of the population concentrated in areas that could be impacted, you know, by a storm and by a flood. And that's pressured cities to build in areas that historically weren't used to have housing and to have infrastructure. So it's put more people in harm's way. Another really important reason is that as these cities get bigger and bigger, rainfall that comes down out of the sky - and as you mentioned, our warmer atmosphere is holding more and more moisture. This rainfall is hitting more and more concrete and more and more built surfaces. And it's just running off really quickly and putting a lot of people at risk of this rainfall-driven flooding.
+
+CHANG: Wow, that's so interesting. Well, with these growing cities in coastal flood-prone areas, I mean, I'm curious. On a scale of one to 10, how would you grade the flood resiliency in those areas?
+
+SANDERS: Well, we've seen, on a scale of one to 10, maybe a five.
+
+CHANG: Wow.
+
+SANDERS: We can do much better.
+
+CHANG: Yeah.
+
+SANDERS: So far, we haven't been successful in the U.S. building structures that are ready to tolerate the floods of this next century.
+
+CHANG: OK, so when it comes to building more flood-tolerant infrastructure, what are the first things that local governments should do to address that?
+
+SANDERS: The first thing that they need to do is map out the areas most at risk, understand areas where there should be no more building. Those are areas where we needed to seriously consider stepping back, getting out of harm's way, leaving room for nature. Secondly, in the areas where we can tolerate some flooding, we need to make sure that the structures we put there are going to hold up against the storm. And we can do that with new building codes, land use at the local level and so on. And lastly, across urban areas, we need to make more room for water to move. We need channels and flow ways and greenspaces that can create space for these big rainfall events to drain.
+
+CHANG: Right.
+
+SANDERS: And at the same time, it's a huge opportunity because these greenspaces create a more livable city.
+
+CHANG: Yeah. Well, now that we're all seeing the damage in Florida from Hurricane Ian and the Carolinas, if you had the ear of every urban planner in the southeast right now, what would you tell them?
+
+SANDERS: Reimagine what your city could look like in the future in a more resilient form. How can we use our land most effectively, creating space for the environment, space for our communities to thrive, a more livable city? This is an opportunity to reset for a safe future. We simply can't afford to rebuild like we were before. That's a recipe to have one disaster after another. After these events, a lot of federal money becomes available to help communities do precisely this - major investments in infrastructure, in waterways, in drainage systems. So if those resources are used effectively, this can be an incredible opportunity for coastal communities to grow in the future.
+
+CHANG: That is Brett Sanders, professor of civil engineering at the University of California Irvine. Thank you very much.
+
+SANDERS: Thank you for having me.
+
+````
+
+- [audio](/audio/20221003_atc_hurricane_infrastructure.mp3)
