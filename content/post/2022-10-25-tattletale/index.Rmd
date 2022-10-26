@@ -1,0 +1,13 @@
+---
+title: "tattletale"
+author: ''
+date: '2022-10-25'
+output: word_document
+categories: []
+tags: []
+slug: tattletale
+---
+
+## Tattletale/telltale (告密者)
+
+I learned the word from Ian when we're in the shower room: he stopped me from asking Andrei about what happened in the zoo camp last week. It seems like Children in the world are the same: they don't want one of them tells the secrets to adults.
