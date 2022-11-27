@@ -1,0 +1,23 @@
+---
+title: "Flu B"
+author: ''
+date: "2022-11-13"
+output:
+  html_document:
+    df_print: paged
+categories: []
+tags: []
+slug: "flu-b"
+---
+
+Ian started to have low fever since Friday night. Actually, he was fine when I picked him up around 4pm after school. He even zipped off his jacket in front of one girl in his class to show that he is not cold. It's cold.
+
+![](/image/covid19.jpg){width=50%}![](/image/flu.jpg){width=50%}
+
+
+When he got home, he felt drowsy and slept on the crouch. He did not eat too much dinner. At night, he had fever. He had two times of 午时茶，but it did not work at all. We did the Covid-19 test at home, it is not positive. After whole Saturday and night, he did not have any sign of getting better, we have to see the doctor around 4pm. 
+
+The nurse has him do the covid-19 test again, still not positive. Then the doctor suggests the flu test; it turns out hat she is right: He has the flu b! The doctor said Ian is the first kid who has the flu B in the town.
+
+We are very confused that why he got flu: he had the flu shot just three days ago! When he got sick, I felt very guilty: he had his first basketball class last Thursday and I did not push him to wear his jacket when we got out the [Eisenhower Rec Center](https://www.mhkprd.com/530/Eisenhower-Recreation-Center). He was a little sweaty inside and then jumped into the coldness outside, that is the usual reason to catch a cold. Fortunately, he was completely fine after one night's sleep. Actually, the doctor prescribed [Ibuprofen](https://medlineplus.gov/druginfo/meds/a682159.html); but we did not buy it.
+
