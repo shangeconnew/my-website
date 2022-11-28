@@ -1,8 +1,8 @@
 ---
-title: How to generate asymptote figure in WinEdit with MikTex
+title: "How to generate asymptote figure in WinEdit with MikTex"
 author: ''
-date: '2022-07-06'
-slug: how-to-generate-asymptote-figure-in-winedit-with-miktex
+date: "2022-07-06"
+slug: "how-to-generate-asymptote-figure-in-winedit-with-miktex"
 categories: []
 tags: []
 ---
@@ -27,3 +27,13 @@ tags: []
 
 6. 7/21/2022, I find this trick: first `PDFLatex` then, would get the same result for one pictures, and get the result for two pictures in which case the `Latex` does not work:
 https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote
+
+7. 11/27/2022, I find that we could get the final pdf with just one step:
+ 
+ - 1. open the command prompt
+ 
+ - 2. first try "pdflatex -shell-escape"
+
+ - 3. try "filename.tex"
+ 
+ I learned from this [link](https://tex.stackexchange.com/questions/458605/running-asymptote-code-in-latex)

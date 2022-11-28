@@ -1,8 +1,8 @@
 ---
-title: How to generate asymptote figure in WinEdit with MikTex
+title: "How to generate asymptote figure in WinEdit with MikTex"
 author: ''
-date: '2022-07-06'
-slug: how-to-generate-asymptote-figure-in-winedit-with-miktex
+date: "2022-07-06"
+slug: "how-to-generate-asymptote-figure-in-winedit-with-miktex"
 categories: []
 tags: []
 ---
@@ -30,4 +30,17 @@ tags: []
 <li><p>Online Asymptote codeing: <a href="http://asymptote.ualberta.ca/" class="uri">http://asymptote.ualberta.ca/</a></p></li>
 <li><p>7/21/2022, I find this trick: first <code>PDFLatex</code> then, would get the same result for one pictures, and get the result for two pictures in which case the <code>Latex</code> does not work:
 <a href="https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote" class="uri">https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote</a></p></li>
+<li><p>11/27/2022, I find that we could get the final pdf with just one step:</p></li>
 </ol>
+<ul>
+<li><ol style="list-style-type: decimal">
+<li>open the command prompt</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>first try “pdflatex -shell-escape”</li>
+</ol></li>
+<li><ol start="3" style="list-style-type: decimal">
+<li>try “filename.tex”</li>
+</ol></li>
+</ul>
+<p>I learned from this <a href="https://tex.stackexchange.com/questions/458605/running-asymptote-code-in-latex">link</a></p>
