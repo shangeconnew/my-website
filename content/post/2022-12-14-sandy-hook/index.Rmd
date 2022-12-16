@@ -135,4 +135,4 @@ SUMMERS: ...And Allison Wyatt.
 
 (SOUNDBITE OF MUSIC)
 
-## [audio](/static/audio/20221214_atc_remembering_sandy_hook_shooting_victims_ten_years_later.mp3)
+## [audio](/audio/20221214_atc_remembering_sandy_hook_shooting_victims_ten_years_later.mp3)
