@@ -1,0 +1,64 @@
+---
+title: "‘Immunity debt’ VS ‘Immunity theft’"
+author: ''
+date: "2022-12-16"
+slug: "immunity-debt-vs-immunity-theft"
+categories: []
+tags: []
+---
+
+## immunity debt
+
+The term **“immunity debt”** is circulating widely online as an explanation for a significant surge in respiratory illness in Canada, but infectious diseases experts say the term and the narratives around it are “dangerous” and can promote COVID-19 “misinformation.”
+
+
+Two variations of how “immunity debt” is being interpreted have emerged in recent weeks, as emergency departments and children’s hospitals across the country have been swamped with more patients sick with respiratory viruses than they can handle.
+
+The first hypothesis suggests people’s immune systems are weaker now, due to a lack of exposure to viruses while observing COVID-19 public health measures over the last two-and-a-half years.
+
+The second interpretation of the term “immunity debt” purports that more babies and children than ever are getting seriously ill with respiratory viruses because there was delayed exposure to these illnesses over the last two-and-a-half years — again due to lockdowns and masks.
+
+## immunity theft
+
+The concept of "immunity theft" is simply that COVID infection (let alone repeated infections) may rob people of a working immune system, which puts them at risk for other infections.
+
+## Reference
+
+1. [You Are Going to Get COVID Again … And Again … And Again](https://www.theatlantic.com/health/archive/2022/05/covid-reinfection-research-immunity/639436/)
+
+2. [‘Immunity debt’: Why experts say this new term promotes COVID-19 ‘misinformation’](https://globalnews.ca/news/9272293/immunity-debt-covid-19-misinformation/)
+
+3. 
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1591764627394035723')
+```
+
+First, I don't think the newly-coined (2021) term "immunity debt" is useful or well chosen. It is being used to refer to two very different ideas and is prone to confusion or equivocation. It doesn't help that one of those ideas is trivially true and the other is nonsense.
+
+The version that is trivially true occurs at the population level. If a lot of people avoid infection in one season, then there will be less immunity in the population and larger numbers of susceptible hosts in the following season. Obviously.
+
+This population-level version of "immunity debt" is very unlikely to actually account for what we're seeing right now, but at least it isn't nonsensical. "Debt" would not be the right term for this in any case.
+
+The other version of immunity debt refers to the individual level rather than the population as a whole. It assumes that the immune system is like a muscle, and not using it against pathogens weakens it, making individuals more prone to severe infections.
+
+The immune-system-as-muscle idea is a corruption of the (still debated) "hygiene hypothesis", which does NOT say that kids need to be exposed to *pathogens*. Let your kids play in the dirt, yes. Don't let them run around in a biohazard lab. (use it or lose it)
+
+If we are stuck with the term "immunity debt", then the alternative idea to explain what is happening is "immunity theft" (same idea as "immunity robbery" coined by @FurnessColin).
+
+The concept of "immunity theft" is simply that COVID infection (let alone repeated infections) may rob people of a working immune system, which puts them at risk for other infections.
+
+This is not merely an academic debate. Proponents of immunity debt tend to be the same people who advocated against efforts to mitigate COVID in schools. They are now blaming remote learning and masks for surges in other viruses like RSV and flu in kids. They still oppose masks.
+
+On the other hand, *IF* immunity theft is the cause, then letting COVID rip in schools was a disastrous idea, and we urgently need to prevent further immune-depleting infection with COVID and with other viruses that will now be having more severe effects than they usually would.
+
+So which is it? Immunity debt or immunity theft? We don't know, and it's not either-or (at least, it could be the population version of immunity debt and/or immunity theft).
+
+However, it has to be noted that immunity debt, even the non-ridiculous version, is not being used in a logically consistent way.
+
+Do masks block RSV and flu so well that they cause immunity debt? If they work, why not use them now to keep kids out of hospitals?
+
+If recommendations to wash hands are effective at stopping RSV and flu, why doesn't this cause immunity debt?
+
+RSV and flu immunity do not last long, so how are "lockdowns" from 2 years ago still having this effect?
+
+Also, many of the proponents of immunity debt have a terrible record when it comes to COVID claims.
