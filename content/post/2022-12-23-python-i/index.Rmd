@@ -1,0 +1,117 @@
+---
+title: "Python I"
+author: ''
+date: "2022-12-23"
+output:
+  html_document:
+    df_print: paged
+categories: []
+tags: []
+slug: "python-i"
+---
+
+## Scrape data from web 
+
+<!-- ```{r eval=FALSE, include=FALSE} -->
+<!-- library(reticulate) -->
+<!-- py_install("bs4") -->
+<!-- py_install("requests") -->
+<!-- conda_remove() -->
+<!-- ``` -->
+
+```{python}
+#IMPORT LIBRARIES
+from bs4 import BeautifulSoup
+import requests
+#IMPORT CSV LIBRARY
+import csv
+#OPEN A NEW CSV FILE. IT CAN BE CALLED ANYTHING
+file= open('ecommerce.csv', 'w')
+#CREATE A VARIABLE FOR WRITING TO THE CSV
+writer = csv.writer(file)
+#CREATE THE HEADER ROW OF THE CSV
+writer.writerow(['Date', 'Content'])
+#REQUEST WEBPAGE AND STORE IT AS A VARIABLE
+page_to_scrape = requests.get("https://internetcommerce.netlify.app/")
+print(page_to_scrape)
+#USE BEAUTIFULSOUP TO PARSE THE HTML AND STORE IT AS A VARIABLE
+soup = BeautifulSoup(page_to_scrape.text, 'html.parser')
+#FIND ALL THE ITEMS IN THE PAGE WITH A CLASS ATTRIBUTE OF 'TEXT'
+#AND STORE THE LIST AS A VARIABLE
+quotes = soup.findAll('a', attrs={'class':'archive-item-link'})
+#FIND ALL THE ITEMS IN THE PAGE WITH A CLASS ATTRIBUTE OF 'AUTHOR'
+#AND STORE THE LIST AS A VARIABLE
+authors = soup.findAll('span', attrs={'class':'archive-item-date'})
+
+#LOOP THROUGH BOTH LISTS USING THE 'ZIP' FUNCTION
+#AND PRINT AND FORMAT THE RESULTS
+for date, content in zip(authors, quotes):
+    print(date.text.strip()+ "(" + content.text.strip() + ")")
+    #WRITE EACH ITEM AS A NEW ROW IN THE CSV
+    writer.writerow([date.text.strip(), content.text.strip()])
+#CLOSE THE CSV FILE
+file.close()
+```
+
+- I learned the code from the [YouTube](https://www.youtube.com/watch?v=RvCBzhhydNk) 
+
+- But the date column in the csv file does not show up, I got help from [StackExchange](https://stackoverflow.com/questions/74893872/how-to-show-dates-in-csv-file-generated-by-python)
+
+## How to make table?
+
+- I have to use `tabulate` to make table, the code does not work in my `RStudio` since the package is not installed. I learn to install the package from [here](https://rstudio.github.io/reticulate/articles/python_packages.html):
+
+
+```{r include=FALSE}
+library(reticulate)
+py_install("tabulate")
+```
+
+- I copied the example from [here](https://rstudio.github.io/reticulate/articles/r_markdown.html):
+
+```{r eval=FALSE, include=FALSE}
+library(reticulate)
+py_install("matplotlib")
+```
+
+
+
+```{python}
+import matplotlib.pyplot as plt 
+import numpy as np
+t=np.arange(0.0, 2.0, 0.01)
+s=1+np.sin(2*np.pi*t) 
+plt.plot(t,s)
+plt.xlabel('time(s)')
+plt.ylabel('voltage(mv)') 
+plt.grid(True)
+plt.savefig("test.png")
+plt.show()
+```
+
+- print the scraped data into a table from [here](https://www.statology.org/create-table-in-python/):
+
+```{r include=FALSE}
+library(reticulate)
+py_install("tabulate")
+py_install("pandas")
+
+# conda installation causes a lot of problems!
+# create a new environment 
+#conda_create("r-reticulate")
+
+# install tabulate
+#conda_install("r-reticulate", "tabulate")
+
+# import tabulate (it will be automatically discovered in "r-reticulate")
+# tabulate <- import("tabulate")
+```
+
+
+```{python}
+import pandas
+from tabulate import tabulate
+data=pandas.read_csv("ecommerce.csv")
+print(tabulate(data,headers=data.head(), tablefmt="grid", showindex="always"))
+```
+

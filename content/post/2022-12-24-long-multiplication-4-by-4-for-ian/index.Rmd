@@ -1,0 +1,23 @@
+---
+title: "Long Multiplication 4 by 4 for Ian"
+author: ''
+date: "2022-12-23"
+slug: "long-multiplication-4-by-4-for-ian"
+categories: []
+tags: []
+---
+
+## Long Multiplication of $4\times 4$
+
+Ian told me that he could do it; and he even shared with me a story: some fifty graders in Bergman asked third graders to do the long multiplication, whoever did it right, his/her name would show up in the list on the wall of cafetiere. He did it right and his name was in the list; but his friend Issac failed.
+
+To verify what he said, I gave him a question and he got it right:
+
+![](/image/LondMulti_4by4.jpg){width=50%}![](/image/calculator.jpg){width=50%}
+
+- I also gave him three other questions from [supperteacheworksheets](https://www.superteacherworksheets.com/), he got all right.
+
+- He also did the reading test: [Snow Elephants](https://www.superteacherworksheets.com/reading-comp/4th-snow-elephants.pdf). the result is not that good.
+
+- He also made a snow ball:
+![](/image/snowman.jpeg)

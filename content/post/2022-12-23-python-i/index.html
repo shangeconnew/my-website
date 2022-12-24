@@ -1,0 +1,146 @@
+---
+title: "Python I"
+author: ''
+date: "2022-12-23"
+output:
+  html_document:
+    df_print: paged
+categories: []
+tags: []
+slug: "python-i"
+---
+
+
+
+<div id="scrape-data-from-web" class="section level2">
+<h2>Scrape data from web</h2>
+<pre class="python"><code>#IMPORT LIBRARIES
+from bs4 import BeautifulSoup
+import requests
+#IMPORT CSV LIBRARY
+import csv
+#OPEN A NEW CSV FILE. IT CAN BE CALLED ANYTHING
+file= open(&#39;ecommerce.csv&#39;, &#39;w&#39;)
+#CREATE A VARIABLE FOR WRITING TO THE CSV
+writer = csv.writer(file)
+#CREATE THE HEADER ROW OF THE CSV
+writer.writerow([&#39;Date&#39;, &#39;Content&#39;])
+#REQUEST WEBPAGE AND STORE IT AS A VARIABLE</code></pre>
+<pre><code>## 14</code></pre>
+<pre class="python"><code>page_to_scrape = requests.get(&quot;https://internetcommerce.netlify.app/&quot;)
+print(page_to_scrape)
+#USE BEAUTIFULSOUP TO PARSE THE HTML AND STORE IT AS A VARIABLE</code></pre>
+<pre><code>## &lt;Response [200]&gt;</code></pre>
+<pre class="python"><code>soup = BeautifulSoup(page_to_scrape.text, &#39;html.parser&#39;)
+#FIND ALL THE ITEMS IN THE PAGE WITH A CLASS ATTRIBUTE OF &#39;TEXT&#39;
+#AND STORE THE LIST AS A VARIABLE
+quotes = soup.findAll(&#39;a&#39;, attrs={&#39;class&#39;:&#39;archive-item-link&#39;})
+#FIND ALL THE ITEMS IN THE PAGE WITH A CLASS ATTRIBUTE OF &#39;AUTHOR&#39;
+#AND STORE THE LIST AS A VARIABLE
+authors = soup.findAll(&#39;span&#39;, attrs={&#39;class&#39;:&#39;archive-item-date&#39;})
+
+#LOOP THROUGH BOTH LISTS USING THE &#39;ZIP&#39; FUNCTION
+#AND PRINT AND FORMAT THE RESULTS
+for date, content in zip(authors, quotes):
+    print(date.text.strip()+ &quot;(&quot; + content.text.strip() + &quot;)&quot;)
+    #WRITE EACH ITEM AS A NEW ROW IN THE CSV
+    writer.writerow([date.text.strip(), content.text.strip()])
+#CLOSE THE CSV FILE</code></pre>
+<pre><code>## 2022-11-15(Week 11)
+## 20
+## 2022-11-08(Week 10)
+## 20
+## 2022-10-31(Week 9)
+## 19
+## 2022-10-24(Week 8)
+## 19
+## 2022-10-18(Week 7)
+## 19
+## 2022-10-17(Nobel Prize in Economic Sciences 2022)
+## 50
+## 2022-10-11(Week 6)
+## 19
+## 2022-10-10(Case Study 1.2: AMAZON)
+## 35
+## 2022-10-03(Week 5)
+## 19
+## 2022-09-26(Week 4)
+## 19
+## 2022-09-26(Case Study 1.1: Pinterest)
+## 38
+## 2022-09-20(Week 3)
+## 19
+## 2022-09-18(Projects)
+## 21
+## 2022-09-12(Week 2)
+## 19
+## 2022-09-05(Week 1)
+## 19</code></pre>
+<pre class="python"><code>file.close()</code></pre>
+<ul>
+<li><p>I learned the code from the <a href="https://www.youtube.com/watch?v=RvCBzhhydNk">YouTube</a></p></li>
+<li><p>But the date column in the csv file does not show up, I got help from <a href="https://stackoverflow.com/questions/74893872/how-to-show-dates-in-csv-file-generated-by-python">StackExchange</a></p></li>
+</ul>
+</div>
+<div id="how-to-make-table" class="section level2">
+<h2>How to make table?</h2>
+<ul>
+<li>I have to use <code>tabulate</code> to make table, the code does not work in my <code>RStudio</code> since the package is not installed. I learn to install the package from <a href="https://rstudio.github.io/reticulate/articles/python_packages.html">here</a>:</li>
+</ul>
+<pre class="r"><code>library(reticulate)
+py_install(&quot;tabulate&quot;)</code></pre>
+<ul>
+<li>I copied the example from <a href="https://rstudio.github.io/reticulate/articles/r_markdown.html">here</a>:</li>
+</ul>
+<pre class="python"><code>import matplotlib.pyplot as plt 
+import numpy as np
+t=np.arange(0.0, 2.0, 0.01)
+s=1+np.sin(2*np.pi*t) 
+plt.plot(t,s)
+plt.xlabel(&#39;time(s)&#39;)
+plt.ylabel(&#39;voltage(mv)&#39;) 
+plt.grid(True)
+plt.savefig(&quot;test.png&quot;)
+plt.show()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<ul>
+<li>print the scraped data into a table from <a href="https://www.statology.org/create-table-in-python/">here</a>:</li>
+</ul>
+<pre class="python"><code>import pandas
+from tabulate import tabulate
+data=pandas.read_csv(&quot;ecommerce.csv&quot;)
+print(tabulate(data,headers=data.head(), tablefmt=&quot;grid&quot;, showindex=&quot;always&quot;))</code></pre>
+<pre><code>## +----+------------+---------------------------------------+
+## |    | Date       | Content                               |
+## +====+============+=======================================+
+## |  0 | 2022-11-15 | Week 11                               |
+## +----+------------+---------------------------------------+
+## |  1 | 2022-11-08 | Week 10                               |
+## +----+------------+---------------------------------------+
+## |  2 | 2022-10-31 | Week 9                                |
+## +----+------------+---------------------------------------+
+## |  3 | 2022-10-24 | Week 8                                |
+## +----+------------+---------------------------------------+
+## |  4 | 2022-10-18 | Week 7                                |
+## +----+------------+---------------------------------------+
+## |  5 | 2022-10-17 | Nobel Prize in Economic Sciences 2022 |
+## +----+------------+---------------------------------------+
+## |  6 | 2022-10-11 | Week 6                                |
+## +----+------------+---------------------------------------+
+## |  7 | 2022-10-10 | Case Study 1.2: AMAZON                |
+## +----+------------+---------------------------------------+
+## |  8 | 2022-10-03 | Week 5                                |
+## +----+------------+---------------------------------------+
+## |  9 | 2022-09-26 | Week 4                                |
+## +----+------------+---------------------------------------+
+## | 10 | 2022-09-26 | Case Study 1.1: Pinterest             |
+## +----+------------+---------------------------------------+
+## | 11 | 2022-09-20 | Week 3                                |
+## +----+------------+---------------------------------------+
+## | 12 | 2022-09-18 | Projects                              |
+## +----+------------+---------------------------------------+
+## | 13 | 2022-09-12 | Week 2                                |
+## +----+------------+---------------------------------------+
+## | 14 | 2022-09-05 | Week 1                                |
+## +----+------------+---------------------------------------+</code></pre>
+</div>
