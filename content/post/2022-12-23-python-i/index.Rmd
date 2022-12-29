@@ -19,6 +19,14 @@ slug: "python-i"
 <!-- conda_remove() -->
 <!-- ``` -->
 
+
+
+```{r eval=FALSE, include=FALSE}
+#install.packages("reticulate")
+library(reticulate)
+conda_remove("r-reticulate")
+```
+
 ```{python}
 #IMPORT LIBRARIES
 from bs4 import BeautifulSoup

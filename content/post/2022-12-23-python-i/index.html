@@ -14,6 +14,12 @@ slug: "python-i"
 
 <div id="scrape-data-from-web" class="section level2">
 <h2>Scrape data from web</h2>
+<!-- ```{r eval=FALSE, include=FALSE} -->
+<!-- library(reticulate) -->
+<!-- py_install("bs4") -->
+<!-- py_install("requests") -->
+<!-- conda_remove() -->
+<!-- ``` -->
 <pre class="python"><code>#IMPORT LIBRARIES
 from bs4 import BeautifulSoup
 import requests
@@ -85,12 +91,8 @@ for date, content in zip(authors, quotes):
 <div id="how-to-make-table" class="section level2">
 <h2>How to make table?</h2>
 <ul>
-<li>I have to use <code>tabulate</code> to make table, the code does not work in my <code>RStudio</code> since the package is not installed. I learn to install the package from <a href="https://rstudio.github.io/reticulate/articles/python_packages.html">here</a>:</li>
-</ul>
-<pre class="r"><code>library(reticulate)
-py_install(&quot;tabulate&quot;)</code></pre>
-<ul>
-<li>I copied the example from <a href="https://rstudio.github.io/reticulate/articles/r_markdown.html">here</a>:</li>
+<li><p>I have to use <code>tabulate</code> to make table, the code does not work in my <code>RStudio</code> since the package is not installed. I learn to install the package from <a href="https://rstudio.github.io/reticulate/articles/python_packages.html">here</a>:</p></li>
+<li><p>I copied the example from <a href="https://rstudio.github.io/reticulate/articles/r_markdown.html">here</a>:</p></li>
 </ul>
 <pre class="python"><code>import matplotlib.pyplot as plt 
 import numpy as np
@@ -102,7 +104,7 @@ plt.ylabel(&#39;voltage(mv)&#39;)
 plt.grid(True)
 plt.savefig(&quot;test.png&quot;)
 plt.show()</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <ul>
 <li>print the scraped data into a table from <a href="https://www.statology.org/create-table-in-python/">here</a>:</li>
 </ul>
