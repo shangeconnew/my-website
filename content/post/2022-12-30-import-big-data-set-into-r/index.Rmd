@@ -1,0 +1,29 @@
+---
+title: "Import big data set into R"
+author: ''
+date: "2022-12-30"
+slug: "import-big-data-set-into-r"
+categories: []
+tags: []
+---
+I am trying to import a big `STATA` data set into `R`, but the size is over 5m which is the limit for `R`. I wonder if you could help me with that? Actually, the whole data set is available [here](https://data.mendeley.com/datasets/kdx7bdwbrs/1)
+
+The problem is solved by [ Click on the broom icon in the top right window to remove all objects from the environment.](https://tilburgsciencehub.com/building-blocks/prepare-your-data-for-analysis/data-preparation/large-datasets-r/).
+
+When I export the data out of `R` by using code:
+```
+library("writexl")
+write_xlsx(GEIH_17_20_complete, "GEIH_17_20_complete.xlsx")
+```
+I get this error message:
+
+```
+Error: Error in libxlsxwriter: 'Zip error ZIP_BADZIPFILE (use_zip64 option may be required).
+```
+I edit the code as:
+
+```
+library("writexl")
+write_xlsx(GEIH_17_20_complete, "GEIH_17_20_complete.xlsx",use_zip64 = TRUE)
+```
+It works; but the excel file is over 700m; so I cannot open it.
