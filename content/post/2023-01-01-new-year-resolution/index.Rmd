@@ -1,0 +1,47 @@
+---
+title: "New Year Resolution"
+author: ''
+date: "2023-01-01"
+slug: "new-year-resolution"
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(fig.align = 'center')
+```
+
+
+## Done list:
+
+1. I emailed Prof. Woodbury, Liu, Wooldridge and Anderson (later in the day); both Woodbury and Liu responded.
+
+2. I called Judie and the phone last about 20 minutes. She sent me several pictures of her family and asked for some pictures of mine.
+
+![ On 12/08, it's their $59^{th}$ anniversary](/image/Judie.jpeg)
+
+
+3. I got up around 4:30pm and then I went out to take a walk with Ian. Since it was pretty late, we could not take the usual walk all the way to the Apple Tower, we just jogged on the field. He asked me how to pronounce the "Elon Musk"; I realized that what he really wanted is to test whether I know the difference between "Musk" and "Mask". After I told him the one letter difference between the two words, we talked about 马斯克，the Chinese name of the richest person in the world. Ian did know that 马 means "horse" in English. I told him that there was another celeberty whose Chinese name is 马克思（斯）; Ian asked me who 马克思（斯）is and I told him he was a philosopher: his English name is Karl Max. He then corrected my pronunciation of Karl. He asked me what a philosopher is doing and I said philosophers are dealing with philosophy. He asked further what philosophy is about, I said:
+
+```
+If we divide the whole world into two parts: one is human society and the rest, basically the nature and the universe. Social science is studying the human society and the natural science is studying the rest of the world. Philosophy is studying both and so it is very complicated.
+```
+I remember I learned it from a NPR radio program except the exact name and date. I just checked the definition of [Philosophy at Wikepedia](https://en.wikipedia.org/wiki/Philosophy), it is kind of OK. And then I let him which country Karl Mar was born into. Obviously, he had no idea. Even after I gave him the hint of The first letter is G and in Europe, he still did not get it right. I later said he used to be in a soccer team named after the country. Finally, I have told hime the answer-Germany.
+
+
+
+## Go-to
+
+I first heard the term from [KPR Presents](https://kansaspublicradio.org/show/programs-kpr-presents); it is an interview between the host [Kaye McIntyre](https://kansaspublicradio.org/people/kaye-mcintyre) and a gentleman. The gentleman said the game between US and Netherlands is a go-to game for US; I was confused by its meaning and found nothing after googling it. Today, from [All things considered](https://www.npr.org/2022/12/31/1146491012/planning-a-new-years-brunch-in-a-pinch) wehn I was hanging the clothes, I heard the term of *go-to dish*. After I googled the "go-to dish", I found those two links:
+
+One is about the whole and the other is [Merriam-Webster](https://www.merriam-webster.com/dictionary/go-to) and the other is [go-to dish](https://www.eating-normal.com/blog-reel/the-go-to-dish). I realized that I need to put a dash sign between the two words.
+
+## to-do list
+
+1. finish the R&R for the paper co-authored with Wooldridge;
+
+2. Clean the house;
+
+3. Change the roller shade of windows;
+
+4. Yard work.
