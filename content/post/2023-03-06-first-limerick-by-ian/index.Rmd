@@ -1,0 +1,24 @@
+---
+title: "First limerick by Ian"
+author: ''
+date: "2023-03-06"
+output: pdf_document
+categories: []
+tags: []
+slug: "first-limerick-by-ian"
+---
+
+## Monkey named Bob
+
+Ona there was a monkey named Bob,
+
+Who munched on a corn on a cob;
+
+and said he was full
+
+and felt very dull.
+
+and said he would eat, sleep and sob.
+
+
+- [limerick:](https://en.wikipedia.org/wiki/Limerick_(poetry)) 五行打油诗 
