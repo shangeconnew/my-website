@@ -2,7 +2,9 @@
 title: "First limerick by Ian"
 author: ''
 date: "2023-03-06"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 categories: []
 tags: []
 slug: "first-limerick-by-ian"
