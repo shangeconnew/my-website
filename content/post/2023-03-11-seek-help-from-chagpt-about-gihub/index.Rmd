@@ -69,6 +69,20 @@ When you pull the changes from the online repository into local folder B, the fi
 
 Note that this assumes that both local folders are synced with the same online repository. If the local folders are synced with different online repositories, you will need to ensure that you are committing and pushing changes to the correct repository for local folder A.
 
+- Q: I think there is a short cut:  copy all the files expect the control file from local folder A and paste them to local folder B; then they would be synced to repository B online.
 
+- A: Yes, you are correct. Copying all the files except the control file from local folder A and pasting them into local folder B should work as a shortcut.
+
+Once you've copied the files to local folder B, you can use the GitHub Desktop app to commit and push the changes to the online repository for local folder B. The modified files will be synced to the online repository, and you can then pull the changes from the online repository into local folder A to ensure that both local folders are up-to-date.
+
+However, it's important to note that this shortcut assumes that both local folders are synced with the same online repository. If the local folders are synced with different online repositories, you will need to ensure that you are copying the files to the correct location and committing and pushing changes to the correct repository.
+
+- Q: If I still keep the older control file for folder B, then updated local folder B will be synced to repository B online; it won't be synced to repository A, right?
+
+- A: That's correct. If you keep the older control file for local folder B and update the other files in the folder, then sync the changes using the GitHub Desktop app, the changes will only be synced to the online repository for local folder B, and not to the online repository for local folder A.
+
+This is because the control file in local folder B specifies the remote repository that the folder is synced with, and the sync process only affects the files in that remote repository. As long as the control file for local folder B remains unchanged, any changes made to the files in that folder will only be synced to the remote repository specified in the control file.
+
+So if you want to update local folder B and sync the changes to the online repository for repository B without affecting the online repository for repository A, you can keep the control file for local folder B as-is and simply update the other files in the folder.
 
 
