@@ -1,0 +1,21 @@
+---
+title: "Longdivision in Latex"
+author: ''
+date: "2023-03-19"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+categories: []
+tags: []
+slug: "longdivision-in-latex"
+header-includes: \usepackage{polynom}
+---
+
+- I tried to find a way to write long multiplication/division in Latex and found [here](https://tex.stackexchange.com/questions/288084/latex-for-elementary-school-mathematics) very interesting;
+
+- There is a `polynom` package, which could even do factorization directly: https://ctan.org/pkg/polynom?lang=en
+
+- for example: 
+
+$2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}$
