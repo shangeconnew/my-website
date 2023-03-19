@@ -19,3 +19,6 @@ header-includes: \usepackage{polynom}
 - for example: 
 
 $2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}$
+
+- [fancyhdr](https://ctan.org/pkg/fancyhdr) – Extensive control of page headers and footers in LATEX2ε
+
