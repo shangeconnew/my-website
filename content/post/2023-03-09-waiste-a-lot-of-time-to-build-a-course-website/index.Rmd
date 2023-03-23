@@ -1,13 +1,15 @@
 ---
-title: "Waiste a lot of time to build a course website"
+title: "Waste a lot of time to build a course website"
 author: ''
 date: "2023-03-09"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 categories: []
 tags: []
-slug: "waiste-a-lot-of-time-to-build-a-course-website"
+slug: "waste-a-lot-of-time-to-build-a-course-website"
 ---
-I dont know what happened?
+I don't know what happened?
 
 
 I have a problem like this [post](https://wordpress.org/support/topic/add-new-post-page-page-not-loading-unable-to-edit-page/), but I don't know to fix it?
