@@ -1,0 +1,17 @@
+---
+title: "Math Kangaroo"
+author: ''
+date: "2023-03-26"
+output:
+  html_document:
+    df_print: paged
+categories: []
+tags: []
+slug: "math-kangaroo"
+---
+
+## Ian's first competition.
+
+- It's our Spring Break; but we do not go anywhere. His mom pushed him to practice a little bit, but I am totally against it.
+
+![](/image/MathKangaroo3.jpg){width=50%}![](/image/MathKangaroo1.jpg){width=50%}
