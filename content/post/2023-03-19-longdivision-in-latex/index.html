@@ -9,8 +9,11 @@ output:
 categories: []
 tags: []
 slug: "longdivision-in-latex"
-header-includes: \usepackage{polynom}
+header-includes: 
+ - \usepackage{polynom}
+ - \usepackage{longdivision}
 ---
+
 
 
 
@@ -22,5 +25,13 @@ header-includes: \usepackage{polynom}
 </ul>
 <p><span class="math inline">\(2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}\)</span></p>
 <ul>
-<li><a href="https://ctan.org/pkg/fancyhdr">fancyhdr</a> – Extensive control of page headers and footers in LATEX2ε</li>
+<li><p><a href="https://ctan.org/pkg/fancyhdr">fancyhdr</a> – Extensive control of page headers and footers in LATEX2ε</p></li>
+<li><p><a href="https://ctan.org/pkg/longdivision?lang=en">longdivision</a> It is amazing!</p></li>
 </ul>
+<p><span class="math display">\[
+\longdivision[stage=0]{5.3}{37} \quad
+\longdivision[stage=1]{5.3}{37} \quad
+\longdivision[stage=2]{5.3}{37} \quad
+\longdivision[stage=3]{5.3}{37} \quad
+\longdivision[stage=4]{5.3}{37}
+\]</span></p>

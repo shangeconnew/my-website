@@ -9,7 +9,9 @@ output:
 categories: []
 tags: []
 slug: "longdivision-in-latex"
-header-includes: \usepackage{polynom}
+header-includes: 
+ - \usepackage{polynom}
+ - \usepackage{longdivision}
 ---
 
 - I tried to find a way to write long multiplication/division in Latex and found [here](https://tex.stackexchange.com/questions/288084/latex-for-elementary-school-mathematics) very interesting;
@@ -22,3 +24,12 @@ $2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}$
 
 - [fancyhdr](https://ctan.org/pkg/fancyhdr) – Extensive control of page headers and footers in LATEX2ε
 
+- [longdivision](https://ctan.org/pkg/longdivision?lang=en) It is amazing!
+
+\[
+\longdivision[stage=0]{5.3}{37} \quad
+\longdivision[stage=1]{5.3}{37} \quad
+\longdivision[stage=2]{5.3}{37} \quad
+\longdivision[stage=3]{5.3}{37} \quad
+\longdivision[stage=4]{5.3}{37}
+\]
