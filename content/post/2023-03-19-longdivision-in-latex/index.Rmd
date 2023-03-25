@@ -33,3 +33,18 @@ $2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}$
 \longdivision[stage=3]{5.3}{37} \quad
 \longdivision[stage=4]{5.3}{37}
 \]
+
+- It seems like it does not work in html file. For long multiplication, ChatGPT suggests the codes as follows:
+
+\begin{align*}
+    &\phantom{0}\,1234 \\
+    &\times\phantom{0}\,567 \\
+    \cline{1-2}
+    &\phantom{0}\,7404 \\
+    &\phantom{0}6170\phantom{0} \\
+    &4936\phantom{00} \\
+    \cline{1-2}
+    &\phantom{0}700278
+\end{align*}
+
+- But there is no automatic calculation!
