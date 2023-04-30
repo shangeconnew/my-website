@@ -2,9 +2,13 @@
 title: "The Tower of Hanoi"
 author: ''
 date: "2023-04-23"
-slug: "the-tower-of-hanoi"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 categories: []
 tags: []
+slug: "the-tower-of-hanoi"
 ---
 
 ## The Tower of Hanoi
