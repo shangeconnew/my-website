@@ -1,0 +1,12 @@
+---
+title: "Ian mowed the lawn the first time"
+author: ''
+date: "2023-05-26"
+slug: "ian-mowed-the-lawn-the-first-time"
+categories: []
+tags: []
+---
+
+Ian mowed the front yard the first time, with my help.
+
+![](/audio/mowing_Ian.mp4){width=800 height=600}
