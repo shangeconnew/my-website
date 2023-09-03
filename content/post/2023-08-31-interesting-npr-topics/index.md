@@ -2,9 +2,10 @@
 title: "Interesting NPR topics"
 author: ''
 date: "2023-08-31"
-slug: "interesting-npr-topics"
+output: pdf_document
 categories: []
 tags: []
+slug: "interesting-npr-topics"
 ---
 
 
