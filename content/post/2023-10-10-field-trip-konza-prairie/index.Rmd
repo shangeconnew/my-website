@@ -5,23 +5,22 @@ date: "2023-10-10"
 output:
   html_document:
     css: custom.css
-    df_print: paged
-categories: []
+    categories: []
 tags: []
 slug: "field-trip-konza-prairie"
 ---
 
 Today It's Ian's field <span style="text-decoration: line-through; text-decoration-color: red; color: black;">filed</span> trip to Konza prairie! I never had a trip when I was a student. From Ian's expectation, I guess field trip is like our Qiuyou(秋游).
 
-After the trip, I walked to Bergman to pick him up; but I was late for about 15 minutes. Ian cannot wait in Berman <span style="text-decoration: line-through; text-decoration-color: red; color: black;">Bergan </span>and we met at the Hudson <span style="text-decoration: line-through; text-decoration-color: red; color: black;">Hudsion</span> trail. I was glad that he did not just wait there-He knew to walk home himself. It seemed like that he <span style="text-decoration: line-through; text-decoration-color: red; color: black;">you</span> could make him decision.
+After the trip, I walked to Bergman to pick him up; but I was late for about 15 minutes. Ian cannot wait in Bergman <span style="text-decoration: line-through; text-decoration-color: red; color: black;">Bergan </span>and we met at the Hudson <span style="text-decoration: line-through; text-decoration-color: red; color: black;">Hudsion</span> trail. I was glad that he did not just wait there-He knew to walk home himself. It seemed like that he <span style="text-decoration: line-through; text-decoration-color: red; color: black;">you</span> could make his <span style="text-decoration: line-through; text-decoration-color: red; color: black;">him</span> decision.
 
 On the way home, Ian shared with me the interesting stuff during the trip. They hiked about 6 miles; there is a visitor <span style="text-decoration: line-through; text-decoration-color: red; color: black;">vistor</span> center and tour guide who he used a special name which I cannot remember now (<span style="text-decoration: line-through; text-decoration-color: red; color: black;">docent</span>). also he fell to the trail either because of tumbling from one of his classmates or tripped <span style="text-decoration: line-through; text-decoration-color: red; color: black;">tripled</span> by something else. He learned two things from the trip:
 
-- 1. He saw many bison there. Before, he shared with me a story about US buffaloes: because of the over hunting by the settlers, the population of bison was decreasing sharply and almost distinctive. It's was president Roosevelt who saved them. Ian also told me that the difference between buffaloes and bison is the location: animals living in the North is called buffaloes and bison in the South. But the tour guide told them what they saw is bison.
+- 1. He saw many bison there. Before thetrip, he shared with me a story about US buffaloes: because of the over hunting by the settlers, the population of bison was decreasing sharply and almost distinctive. It's was president Roosevelt who saved them. Ian also told me that the difference between buffaloes and bison is the location: animals living in the North is called buffaloes and bison in the South. But the tour guide told them what they saw is bison.
 
 - 2. The tour guide told them that the fruits from rose are edible. He even asked me to guess what the name of the rose fruits is. I said "rose berry" and he said I'm right. It's very interesting: we found the rose berry in the rose in the front yard of our Korean Neighbor. It turns out that I eat that fruit when I was a little Child.
 
-The only regret is that I could <span style="text-decoration: line-through; text-decoration-color: red; color: black;">not</span> get any picture of the trip; Ms. Wade shared with us parents the trip in Square, but no picture was there. I googled "konza prairie" and got two links:
+The only regret is that I could <span style="text-decoration: line-through; text-decoration-color: red; color: black;">not</span> get any picture of the trip; Ms. Wade shared with us parents the trip in **ParentSquare**, but no picture was there. I googled "konza prairie" and got two links:
 
 - 1. [Konza Prairie Biological Station](https://kpbs.konza.k-state.edu/)
 
@@ -29,5 +28,13 @@ The only regret is that I could <span style="text-decoration: line-through; text
 
 Finally, Ian told me that he forgot to bright his water bottle since it's in his backpack.
 
+<span class="del">This text should be crossed out with a red line.</span>
 
+## APPENDEX
+
+1. Ms. Wade's summary of the trip
+![](/image/fieldtrip_mswade.png)
+
+2. Ian's Chinese composition of the trip
+![](/image/fieldtrip_Ian.jpg)
 
