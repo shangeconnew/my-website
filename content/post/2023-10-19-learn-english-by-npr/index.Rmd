@@ -2,9 +2,12 @@
 title: 'Learn English by NPR '
 author: ''
 date: "2023-10-19"
-slug: "learn-english-by-npr"
+output:
+  html_document:
+    df_print: paged
 categories: []
 tags: []
+slug: "learn-english-by-npr"
 ---
 
 1. [Russia and China deepen their solidarity with meeting between leaders](https://www.npr.org/2023/10/18/1206897201/russia-and-china-deepen-their-solidarity-with-meeting-between-leaders)
@@ -33,3 +36,5 @@ tags: []
 - [Beethoven in Beijing](https://www.wbur.org/hereandnow/2022/05/27/beethoven-in-beijing-jennifer-lin)
 
 -['Beethoven in Beijing' tells of Philadelphia Orchestra's trip to China](https://www.wbur.org/hereandnow/2023/05/26/beethoven-in-beijing-book)
+
+8. [Apollo astronaut Frank Borman, who first orbited moon, dies at age 95](https://www.npr.org/2023/11/09/953342565/nasa-apollo-gemini-astronaut-frank-borman-dies)
