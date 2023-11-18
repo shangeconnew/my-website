@@ -29,6 +29,6 @@ The use of "ultra-" and "infra-" in these terms is consistent with their roles i
 The naming convention reflects the relative positions of these types of light compared to the visible spectrum and helps maintain clarity and consistency in the terminology used in the field of optics and electromagnetic radiation.
 
 
-## [QUORAN](https://www.quora.com/Why-is-Ultraviolet-Ultra-and-Infrared-Infra-Why-not-Ultrared-and-Infraviolet) gives more interesting answers!
+## [QUORA](https://www.quora.com/Why-is-Ultraviolet-Ultra-and-Infrared-Infra-Why-not-Ultrared-and-Infraviolet) gives more interesting answers!
 
 ![](/image/lightspectrum.png)
