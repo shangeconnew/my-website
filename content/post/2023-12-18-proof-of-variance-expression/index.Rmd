@@ -1,0 +1,67 @@
+---
+title: "Proof of Variance Expression"
+author: ''
+date: "2023-12-18"
+slug: "proof-of-variance-expression"
+categories: []
+tags: []
+---
+
+
+# Proof of Variance Expression
+
+Let's prove the expression $s^2 = \frac{1}{n^2} \sum_{i<j}^n (x_i - x_j)^2$ from the given expression $s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2$.
+
+1. Start with the definition of $s^2$:
+
+   \[ s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2 \]
+
+2. Expand the square:
+
+   \[ s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i^2 - 2x_i\bar{x} + \bar{x}^2) \]
+
+3. Simplify the summation:
+
+   \[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - 2\bar{x}\sum_{i=1}^{n} x_i + n\bar{x}^2\right) \]
+
+4. Use the definition of $\bar{x}$:
+
+   \[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - \frac{2}{n} \left(\sum_{i=1}^{n} x_i\right)^2 + n\left(\frac{1}{n} \sum_{i=1}^{n} x_i\right)^2\right) \]
+
+5. Combine terms:
+
+   \[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - \frac{1}{n} \left(\sum_{i=1}^{n} x_i\right)^2\right) \]
+
+6. Express in terms of differences between pairs of data points:
+
+    \[ s^2 = \frac{1}{n^2} \left( n\sum_{i=1}^{n} x_i^2 - \sum_{i=1}^{n} x_i^2 - 2 \sum_{i<j}^n x_i x_j \right) \]
+
+7. Simplify more:
+
+ \[ s^2 = \frac{1}{n^2} \left( (n-1)\sum_{i=1}^{n} x_i^2 -2 \sum_{i<j}^n x_i x_j \right) \]
+
+8. Note that:
+
+
+  \[  \sum_{i<j}^n \left(x_i^2 + x_j^2\right) \]
+
+\[
+\begin{array}{rl}
+j=2: &  \left(x_1^2 + x_2^2\right)\\
+j=3: & \left(x_1^2 + x_2^2+2x_3^2\right) \\
+j=4: & \left(x_1^2 + x_2^2+x_3^2+3x_4^2\right)\\
+\vdots \text{ } & \text{ } \vdots\\
+j=n: & \left(x_1^2 + x_2^2+x_3^2+\cdots +(n-1)x_n^2\right) \\
+\end{array}
+\]
+
+So \[  \sum_{i<j}^n \left(x_i^2 + x_j^2\right)=(n-1)\sum_{i=1}^{n} x_i^2 \]
+
+9. Continue step 7:
+
+\[ s^2 = \frac{1}{n^2} \left( \sum_{i<j}^n \left(x_i^2 + x_j^2\right) -2 \sum_{i<j}^n x_i x_j \right)=  \frac{1}{n^2} \sum_{i<j}^n (x_i - x_j)^2\]
+
+Thus, we have proved the expression $s^2 = \frac{1}{n^2} \sum_{i<j}^n (x_i - x_j)^2$ from the given expression $s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2$.
+
+- With help `ChatGPT` and reference: An Alternate Proof of Samuelson's Inequality and Its Extensions, The American Statistician Vol. 43, No. 1 (Feb., 1989), pp. 46-47 (2 pages); the paper is 
+[here(link)](https://www.jstor.org/stable/2685171) and [file.](/pdf/Farnum-AlternateProofSamuelsons-1989.pdf)
