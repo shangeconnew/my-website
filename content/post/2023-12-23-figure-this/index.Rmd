@@ -1,0 +1,25 @@
+---
+title: "Figure this"
+author: ''
+date: "2023-12-23"
+slug: "figure-this"
+categories: []
+tags: []
+---
+
+## Wonderful website
+
+https://figurethis.nctm.org/index.html
+
+I got to know this from the book we borrowed from Manhattan public library.
+
+## Usefull links
+
+[MATHEMATICS 2210-90 Calculus III](https://www.math.utah.edu/online/2210/pastexam.html)
+
+[The Four Color Map Problem](https://www.math.utah.edu/~alfeld/math/4color.html)
+[youtube](https://www.youtube.com/watch?v=h7kqlYUV1l8)
+
+[beautiful music](https://ksu-naxosmusiclibrary-com.er.lib.k-state.edu/catalogue/item.asp?cid=8.223962)
+
+[The Stock Market Game](https://www.stockmarketgame.org/)
