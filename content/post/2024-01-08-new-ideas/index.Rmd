@@ -1,0 +1,16 @@
+---
+title: "New Ideas"
+author: ''
+date: "2024-01-08"
+slug: "new-ideas"
+categories: []
+tags: []
+---
+
+## website for pictures of trash
+
+Use a smart phone to take a picture of trash, especially plastic trash and post the it the website with the location information. We could do it with at least two purposes:
+
+- We could get the location information for those trash and people could clean them with a place to go;
+
+- We could have an idea about which city is cleaner than the rest; we could calculate an index of the trash based on the number of pictures.
