@@ -1,8 +1,8 @@
 ---
 title: "Kansas Hereford Show"
 author: ''
-date: '2022-05-31'
-slug: kansas-hereford-show
+date: "2022-05-31"
+slug: "kansas-hereford-show"
 categories: []
 tags: []
 ---
