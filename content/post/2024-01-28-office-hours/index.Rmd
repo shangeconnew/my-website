@@ -1,0 +1,15 @@
+---
+title: "Office Hours"
+author: ''
+date: "2024-01-28"
+slug: "office-hours"
+categories: []
+tags: []
+---
+##  Graduate Teaching Assistant (GTA) 
+
+| Name 	| Office 	| Office Hours 	| Email 	| Recitation Section 	|
+|---	|---	|---	|---	|---	|
+| Vishmi Dissanayake | 009A  Dickens Hall 	|Tue. 10-11am & Thu. 11-12pm 	| <vishmird@ksu.edu> 	| A & B 	|TBA
+Alex Becker | 303A  Dickens Hall 	|Tuesday & Thursday 9:30- 10:30am	| <alexbecker@ksu.edu>	| C & D 	|
+| Srijana Subedi  	| 007A Dickens Hall 	| Wed. 10-11am & Fri. 2-3pm 	| <ssubedi@ksu.edu> 	| E  & F 	|
