@@ -13,3 +13,6 @@ tags: []
 | Vishmi Dissanayake | 009A  Dickens Hall 	|Tue. 10-11am & Thu. 11-12pm 	| <vishmird@ksu.edu> 	| A & B 	|TBA
 Alex Becker | 303A  Dickens Hall 	|Tuesday & Thursday 9:30- 10:30am	| <alexbecker@ksu.edu>	| C & D 	|
 | Srijana Subedi  	| 007A Dickens Hall 	| Wed. 10-11am & Fri. 2-3pm 	| <ssubedi@ksu.edu> 	| E  & F 	|
+| Srijana Subedi  	| 007A Dickens Hall 	| Wed. 10-11am & Fri. 2-3pm 	| <ssubedi@ksu.edu> 	| E  & F 	|
+| Ashley Pritchard  	| 008A Dickens Hall 	| Tue. 10-11am & Fri. 12-1pm	| <aepritchard@ksu.edu> 	| G  & H 	|
+| Emma Larson | 304  Dickens Hall 	| Tue. & Thu. 9:30- 11:30am	| <larsonee@ksu.edu> 	|  J 	|
