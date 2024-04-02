@@ -1,0 +1,20 @@
+---
+title: "Latex + R + tikzDevice = Ggplots beautifully integrated in latex documents"
+author: ''
+date: "2024-04-01"
+slug: "latex-r-tikzdevice-ggplots-beautifully-integrated-in-latex-documents"
+categories: []
+tags: []
+---
+
+- First of all, I made two tries:
+
+1. `coinProp.tex` and `tree.tex`: `C:\Users\sshang\OneDrive - Kansas State University\STAT350_Spr24\Slides\Lect6(Intro to probability)`
+
+2. `dist_mean.tex`: `C:\Users\sshang\OneDrive - Kansas State University\STAT350_Spr24\Slides\Lec15(Sampling dist of mean)`
+
+They both work, but I don't know how to change the size of the graph.
+
+- From this [post](https://iltabiai.github.io/tips/latex/2015/09/15/latex-tikzdevice-r.html), we can adjust the font size of the plot title and axis legend and their positions.
+
+- Another [example](https://texample.net/tikz/examples/tikzdevice-demo/)
