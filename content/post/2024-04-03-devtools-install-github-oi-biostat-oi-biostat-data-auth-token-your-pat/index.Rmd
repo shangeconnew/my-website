@@ -19,7 +19,7 @@ Error: Failed to install 'unknown package' from GitHub:
 With the help of ChatGPT, `devtools::install_github("username/repo", auth_token = "YOUR_PAT")`; I used the following code and it worked:
 
 ```
-devtools::install_github("username/repo", auth_token = "your personal access token(the file name which contains the PAT infromation ")
+devtools::install_github("username/repo", auth_token = "your personal access token(the file name which contains the PAT infromation")
 ```
 I got the `PAT` with the help of ChatGPT also. Actually, I tried the help from [stack overflow](https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github) but failed.
 
