@@ -1,0 +1,24 @@
+---
+title: "devtools::install_github(\"OI-Biostat/oi_biostat_data\", auth_token = \"YOUR_PAT\")"
+author: ''
+date: "2024-04-03"
+slug: "devtools-install-github-oi-biostat-oi-biostat-data-auth-token-your-pat"
+categories: []
+tags: []
+---
+
+
+
+<ol style="list-style-type: decimal">
+<li>This morning, I was trying install <code>oi_biostat_data</code> for STAT701, but I got the error message:</li>
+</ol>
+<pre><code>Using GitHub PAT from the git credential store.
+Error: Failed to install &#39;unknown package&#39; from GitHub:
+  HTTP error 401.
+  Bad credentials</code></pre>
+<p>With the help of ChatGPT, <code>devtools::install_github("username/repo", auth_token = "YOUR_PAT")</code>; I used the following code and it worked:</p>
+<pre><code>devtools::install_github(&quot;username/repo&quot;, auth_token = &quot;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&quot;)</code></pre>
+<p>I got the <code>PAT</code> with the help of ChatGPT also. Actually, I tried the help from <a href="https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github">stack overflow</a> but failed.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>I don’t understand how it works fully!</li>
+</ol>

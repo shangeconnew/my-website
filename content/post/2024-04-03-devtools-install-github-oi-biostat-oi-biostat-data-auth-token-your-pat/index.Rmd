@@ -1,0 +1,26 @@
+---
+title: "devtools::install_github(\"OI-Biostat/oi_biostat_data\", auth_token = \"YOUR_PAT\")"
+author: ''
+date: "2024-04-03"
+slug: "devtools-install-github-oi-biostat-oi-biostat-data-auth-token-your-pat"
+categories: []
+tags: []
+---
+
+1. This morning, I was trying install `oi_biostat_data` for STAT701, but I got the error message:
+
+```
+Using GitHub PAT from the git credential store.
+Error: Failed to install 'unknown package' from GitHub:
+  HTTP error 401.
+  Bad credentials
+```
+
+With the help of ChatGPT, `devtools::install_github("username/repo", auth_token = "YOUR_PAT")`; I used the following code and it worked:
+
+```
+devtools::install_github("username/repo", auth_token = "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")
+```
+I got the `PAT` with the help of ChatGPT also. Actually, I tried the help from [stack overflow](https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github) but failed.
+
+2. I don't understand how it works fully!
