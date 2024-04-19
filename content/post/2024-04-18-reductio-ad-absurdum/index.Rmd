@@ -1,0 +1,28 @@
+---
+title: "Reductio ad absurdum"
+author: ''
+date: "2024-04-18"
+slug: "reductio-ad-absurdum"
+categories: []
+tags: []
+---
+
+- "反证法"
+
+ChatGPT3.5: "reductio ad absurdum" is a Latin phrase that has been adopted into English. In English, it is used to refer to a method of argumentation where one disproves a proposition by showing that its logical conclusion leads to absurd or contradictory results. This approach is commonly used in logic and debate to demonstrate the invalidity of an argument.
+
+Also, we could refer to [Wikepedia](https://en.wikipedia.org/wiki/Reductio_ad_absurdum); and pronounce it in [Merrian-Webster](https://www.merriam-webster.com/dictionary/reductio%20ad%20absurdum)
+
+Moreover, I learned:
+
+```
+"反问句" is indeed a term in Chinese. It translates to "rhetorical question" in English. In Chinese grammar and rhetoric, 反问句 (fǎn wèn jù) is a type of question used to express an idea indirectly, prompt reflection, or emphasize a point, much like in English. It serves similar purposes in communication and writing as rhetorical questions do in English.
+```
+
+- "逆否命题" 
+
+```
+(ní fǒu mìng tí) in Chinese refers to "contrapositive" in English. In logic, the contrapositive of a statement is formed by negating both the subject and predicate and reversing their order. It is an important concept in mathematical and logical reasoning, often used in proofs and argumentation.
+```
+In [Wikepedia](https://en.wikipedia.org/wiki/Contraposition), it is `Contraposition`.
+
