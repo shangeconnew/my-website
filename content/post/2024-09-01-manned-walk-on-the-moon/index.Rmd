@@ -1,0 +1,17 @@
+---
+title: "Manned walk on the moon"
+author: ''
+date: "2024-09-01"
+slug: "manned-walk-on-the-moon"
+categories: []
+tags: []
+---
+
+## Interesting talking during dinner
+
+ Ian says he wants to be , a character from the book which he is reading now. then we talked about journey from US to China could have been much shorter had gone through the inside of the earth. Then we talked about the first man who walked on the moon: 
+ 
+ ![](/image/alien.jpg)
+ 
+ We argue about whether there has any Chinese walking on the moon. With the help of ChatGPT, we find the results as follows:
+ ![](/image/man_walkonmoon.jpg)
