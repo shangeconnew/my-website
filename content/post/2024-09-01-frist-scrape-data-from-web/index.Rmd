@@ -1,0 +1,48 @@
+---
+title: "Frist scrape data from web"
+author: ''
+date: "2024-09-01"
+slug: "frist-scrape-data-from-web"
+categorie is: []
+tags: []
+---
+
+
+## I tried to scrape the data from Navida website, but it does not work. With the help of ChatGPT, I got the following code:
+
+```{python echo=TRUE}
+# pip install yfinance
+
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+# Download historical data for NVDA
+nvda = yf.download('NVDA', start='2020-01-01', end='2024-09-01')
+
+# Check the first few rows
+print(nvda.head())
+
+# Save to CSV
+nvda.to_csv('nvda_historical.csv')
+print("Data successfully saved to nvda_historical.csv")
+
+
+# Plot the closing price
+plt.figure(figsize=(12, 6))
+plt.plot(nvda.index, nvda['Close'], label='NVDA Closing Price', color='blue')
+
+# Add titles and labels
+plt.title('NVDA Stock Closing Price')
+plt.xlabel('Date')
+plt.ylabel('Price (USD)')
+plt.legend()
+
+# Show grid
+plt.grid(True)
+
+# Display the plot
+plt.show()
+
+```
+
+

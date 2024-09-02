@@ -1,0 +1,51 @@
+---
+title: "Frist scrape data from web"
+author: ''
+date: "2024-09-01"
+slug: "frist-scrape-data-from-web"
+categorie is: []
+tags: []
+---
+
+
+
+<div id="i-tried-to-scrape-the-data-from-navida-website-but-it-does-not-work.-with-the-help-of-chatgpt-i-got-the-following-code" class="section level2">
+<h2>I tried to scrape the data from Navida website, but it does not work. With the help of ChatGPT, I got the following code:</h2>
+<pre class="python"><code># pip install yfinance
+
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+# Download historical data for NVDA
+nvda = yf.download(&#39;NVDA&#39;, start=&#39;2020-01-01&#39;, end=&#39;2024-09-01&#39;)</code></pre>
+<pre><code>## [*********************100%***********************]  1 of 1 completed</code></pre>
+<pre class="python"><code># Check the first few rows
+print(nvda.head())</code></pre>
+<pre><code>##                Open     High      Low    Close  Adj Close     Volume
+## Date                                                                
+## 2020-01-02  5.96875  5.99775  5.91800  5.99775   5.973633  237536000
+## 2020-01-03  5.87750  5.94575  5.85250  5.90175   5.878020  205384000
+## 2020-01-06  5.80800  5.93175  5.78175  5.92650   5.902669  262636000
+## 2020-01-07  5.95500  6.04425  5.90975  5.99825   5.974131  314856000
+## 2020-01-08  5.99400  6.05100  5.95375  6.00950   5.985336  277108000</code></pre>
+<pre class="python"><code># Save to CSV
+nvda.to_csv(&#39;nvda_historical.csv&#39;)
+print(&quot;Data successfully saved to nvda_historical.csv&quot;)</code></pre>
+<pre><code>## Data successfully saved to nvda_historical.csv</code></pre>
+<pre class="python"><code># Plot the closing price
+plt.figure(figsize=(12, 6))
+plt.plot(nvda.index, nvda[&#39;Close&#39;], label=&#39;NVDA Closing Price&#39;, color=&#39;blue&#39;)
+
+# Add titles and labels
+plt.title(&#39;NVDA Stock Closing Price&#39;)
+plt.xlabel(&#39;Date&#39;)
+plt.ylabel(&#39;Price (USD)&#39;)
+plt.legend()
+
+# Show grid
+plt.grid(True)
+
+# Display the plot
+plt.show()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="1152" /></p>
+</div>
