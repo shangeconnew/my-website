@@ -7,6 +7,40 @@ categorie is: []
 tags: []
 ---
 
+## I learned this from Football Analytics:
+
+```{python}
+## Load packages
+import pandas as pd
+import seaborn as sns
+import os.path
+import matplotlib.pyplot as plt
+import statsmodels.formula.api as smf
+import numpy as np
+import os
+
+## download data
+## be careful to hit webpage too many time and get locked out~
+url = "https://www.pro-football-reference.com/years/2022/draft.htm"
+
+chap_7_2022_py_file = "chap_7_2022_py_file.csv"
+
+if os.path.isfile(chap_7_2022_py_file):
+    draft_py = pd.read_csv(chap_7_2022_py_file)
+else:
+    draft_py = pd.read_html(url, header=1)[0]
+    draft_py.to_csv(chap_7_2022_py_file)
+
+
+draft_py.loc[draft_py["DrAV"].isnull(), "DrAV"] = 0
+
+print(draft_py)
+
+draft_py[["Rnd", "Pick", "Tm", "Sk", "College/Univ", "Unnamed: 28"]]
+
+```
+
+It works fine, but when I tried it for [NAVIDA](https://www.nasdaq.com/market-activity/stocks/nvda/historical), It does not work.
 
 ## I tried to scrape the data from Navida website, but it does not work. With the help of ChatGPT, I got the following code:
 
