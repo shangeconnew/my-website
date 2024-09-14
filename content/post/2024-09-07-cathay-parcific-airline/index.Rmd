@@ -8,7 +8,7 @@ tags: []
 ---
 
 I took the airline two times from Wuhan to Hongkong; and last summer, I found a nice deal even from San Francisco to Hongkong. At that time, I did not know the Chinese name of it. Recently I got this news from `wechat` moment:
-![](/image/chatGPT_CathayPercific.JPG)
+![](/image/CathayPercific.JPG)
 
 It prompts me to think about why its Chinese name is GUOTAI; the answer from `ChatGPT` is as follows:
 
