@@ -15,7 +15,8 @@ tags: []
 ![](/image/mm2.JPG)![](/image/mm1.JPG)
 
 
-- Later, he told us that he got the perfect score, but did not get the bonus question right.
+- Later, he told us that he got the perfect score, but did not get the bonus question right. Later (9/14/2024), I found his test paper:
+![](/image/MusicMemory_2024-3_test.JPG)
 
 - He was wearing a t-shirt only when I saw him at the backyard of Bergman; it's very windy and that's the reason to get cold.
 
