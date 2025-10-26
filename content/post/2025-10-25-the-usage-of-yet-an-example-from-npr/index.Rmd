@@ -1,0 +1,150 @@
+---
+title: "The usage of 'yet', an example from NPR"
+author: ''
+date: "2025-10-25"
+slug: "the-usage-of-yet-an-example-from-npr"
+categories: []
+tags: []
+---
+
+
+I have been confused about the word for a long time: sometimes it means negative in a sentence while there is no 'not' in it. Today, I found three lines from an article at NPR.
+
+- 1. The U.S. has yet to finalize trade agreements with Japan and Korea, and tensions between the U.S. and China over trade have escalated in recent weeks, though Trump is insisting he'll be able to make a deal with Xi.
+
+- 2. Lee has negotiated some framework of a trade agreement with Trump, but details of the deal are yet to be finalized, including Korea's pledge to invest $350 billion in the U.S.
+
+- 3. Finally, Trump's trip will end with a highly anticipated meeting with Xi on Oct. 30 — though Beijing has not yet confirmed the meeting.
+
+https://www.npr.org/2025/10/25/nx-s1-5585287/trump-asia-china-xi-japan
+
+- By the way, Ian went to Orchestra camp held at Rock Spring Ranch.
+
+# Overview
+
+In modern English, **_yet_** has three main uses:
+
+1. **Temporal (pending / “so far”)** — means an action **has not happened up to now**, but **may happen later**.
+2. **Contrastive connector** — functions like **“but / however / nevertheless.”**
+3. **Continuative (“still / even now”)** — older/literary use indicating an outcome is **still possible**.
+
+This guide explains each use and compares common grammatical **structures** (patterns) that encode them.
+
+# 1. Temporal **_yet_**: “not so far”
+
+This use signals an action is **unfinished as of now**.
+
+## 1.1 With **explicit** negation
+
+> **Beijing has not yet confirmed** the meeting.  
+> Meaning: As of now, Beijing **hasn’t confirmed** it, but may later.
+
+**Structure (pattern):** `has/have + not + yet + past participle`  
+Examples:
+- *She has not yet submitted* the form.
+- *They have not yet reached* an agreement.
+
+## 1.2 With **implicit** negation
+
+> The details **are yet to be finalized**.  
+> Meaning: The details **have not been finalized so far**.
+
+**Structure (pattern):**  
+- `has/have + yet + to + verb` → *The U.S. **has yet to finalize** the deal.*  
+- `be + yet + to be + past participle` → *The results **are yet to be announced**.*
+
+**Rule of thumb:**  
+- With **“be yet to”**, the **“not” is understood** (don’t add “not”).  
+- With **“has/have … yet”**, you **need “not”** (*has not yet …*).
+
+# 2. Contrastive **_yet_**: “but / however”
+
+Here, **_yet_** is a **connector** (no negative meaning).
+
+- *He is inexperienced, **yet** very confident.* → “… **but** very confident.”  
+- *It’s early, **yet** the streets are crowded.* → “… **but** the streets are crowded.”
+
+Stylistically a touch stronger than **but**, often signaling **surprise** or **tension** between clauses.
+
+# 3. Continuative **_yet_**: “still / even now”
+
+An older/literary flavor indicating **ongoing possibility**:
+
+- *He may **yet** win the election.* → “He **still might** win.”  
+- *We could **yet** see peace in our time.* → “It’s **still** possible.”
+
+# 4. The three NPR-style sentences (analysis)
+
+1. **“The U.S. has yet to finalize** trade agreements with Japan and Korea …”  
+   - **Structure:** `has + yet + to + verb`  
+   - **Meaning:** “has **not** finalized (so far)” — **negative implied**.
+
+2. “Lee has negotiated some framework … but **details of the deal are yet to be finalized** …”  
+   - **Structure:** `be + yet + to be + past participle` (passive)  
+   - **Meaning:** “have **not** been finalized (so far)” — **negative implied**.
+
+3. “Finally, Trump’s trip will end … **though Beijing has not yet confirmed** the meeting.”  
+   - **Structure:** `has + not + yet + past participle`  
+   - **Meaning:** “has **not** confirmed (so far)” — **negative explicit**.
+
+# 5. Side‑by‑side structures
+
+| Function of _yet_ | Core structure (pattern) | Example | Negative implied? | Register / tone |
+|---|---|---|---|---|
+| Temporal (pending) | `has + yet + to + V` | *has yet to finalize* | ✅ Yes | Formal / journalistic |
+| Temporal (pending, passive) | `be + yet + to be + V‑ed` | *are yet to be finalized* | ✅ Yes | Formal / bureaucratic |
+| Temporal (pending, explicit) | `has + not + yet + V‑ed` | *has not yet confirmed* | ✅ Explicit | Neutral / conversational |
+| Contrastive connector | `… , yet + clause` | *… yet determined.* | ❌ No | Stylistically stronger than “but” |
+| Continuative (“still possible”) | `may/might + yet + V` | *may yet win* | ❌ No | Literary / elevated |
+
+**Notes**
+- The **meaning** of “has yet to …” and “has not yet …” is **identical**; the difference is **style and tone**.  
+- “has yet to …” can suggest a **sense of delay/expectation** (sometimes “overdue”).  
+- In speech, “**hasn’t … yet**” is most common; in news prose, “**has yet to …**” appears more frequently.
+
+# 6. Quick diagnostic: choosing the right form
+
+- Need **clear, spoken style**? → **not yet**: *She hasn’t finished yet.*  
+- Need **formal/reporting style**? → **has yet to**: *She has yet to finish.*  
+- Passive/bureaucratic tone? → **is yet to be + V‑ed**: *Approval is yet to be granted.*  
+- Showing **contrast** (like “but”)? → **yet** as connector: *It’s risky, yet worth trying.*  
+- Express **ongoing possibility**? → *may yet*, *could yet*: *He may yet succeed.*
+
+# 7. Common pitfalls
+
+- ❌ *“Beijing **has yet confirmed** the meeting.”* → **Incorrect.**  
+  ✅ Use either **has not yet confirmed** *or* **has yet to confirm**.
+
+- Avoid doubling the negation in the “yet to” pattern:  
+  ❌ *“has not yet to confirm”* → **Incorrect.**
+
+# 8. Mini‑exercises (with keys)
+
+**A. Rewrite with the alternate temporal structure.**  
+1) *The board has not yet approved the budget.*  
+2) *Talks are yet to be scheduled.*  
+3) *The team has yet to release a statement.*  
+
+**Answer key:**  
+1) → *The board **has yet to approve** the budget.*  
+2) → *Talks **have not yet been scheduled**.*  
+3) → *The team **has not yet released** a statement.*
+
+**B. Classify the use of _yet_.**  
+a) *He’s tired, yet enthusiastic.* → **Contrastive**  
+b) *The permit is yet to be issued.* → **Temporal (implicit negative)**  
+c) *She may yet prevail.* → **Continuative (“still possible”)**
+
+# 9. One‑page takeaway
+
+- **Temporal:** pending action → *has not (yet) happened*  
+- **Contrastive:** “but / however”  
+- **Continuative:** “still possible”  
+- **Key structures:**  
+  - `has/have not yet + V‑ed`  
+  - `has/have yet to + V`  
+  - `be yet to be + V‑ed`  
+  - `…, yet + clause`  
+  - `may/might/could yet + V`
+
+> If you remember just one thing: **“has yet to” = “has not yet”** (same meaning; different tone).
