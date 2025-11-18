@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+<title>How to generate asymptote figure in WinEdit with MikTex - A Hugo website</title>
+<meta property="og:title" content="How to generate asymptote figure in WinEdit with MikTex - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas">Canvas</a></li>
+    
+    <li><a href="https://github.com/shangeconnew/my-website">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">How to generate asymptote figure in WinEdit with MikTex</h1>
+
+    
+    <span class="article-date">2022-07-06</span>
+    
+
+    <div class="article-content">
+      
+
+
+<ul>
+<li><ol style="list-style-type: decimal">
+<li>Install the <a href="https://sourceforge.net/projects/asymptote/files/latest/download?source=files">Asymptote</a> (the lastest version, I would recommend; now is 2.81); I assume you already have <a href="https://www.winedt.com/">WinEdit</a> and <a href="https://miktex.org/">MikTex</a> installed. There are three websites which I think are useful:</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>Generate a <code>Tex</code> file, mine is <a href="/tex/asymptote.tex">asymptote</a>, which is from <a href="https://artofproblemsolving.com/wiki/index.php/Asymptote:_Advanced_Configuration">AoPS website</a>. First <code>Latex</code> button, which I think it would generate a <code>.asy</code> file. Then, <code>Asymptote</code> the <code>.asy</code> file into <code>.PostScript</code> file. Actually there are two ways to do it: first is the link <a href="https://tex.stackexchange.com/questions/83035/using-asymptote-with-miktex">here</a>; you could embed the <code>Asymptote</code> into your <code>WinEdit</code>. But from <a href="https://www.winedt.org/config/menus/Asymptote.html">here</a>, they don’t have all the <code>.edt</code> files(Macros) for all versions of <code>WinEdit</code>. For example, mine is 5.5 which does not have one. So I just open the <code>.asy</code> file with <code>Asymptote</code> manually. As long as you have the <code>.PostScript</code> file generated, you’re fine.</li>
+</ol></li>
+<li><ol start="3" style="list-style-type: decimal">
+<li><code>Latex</code> again, which would generate the <code>.pdf</code> file for the figure from <code>Asymptote</code>. There is a common error in this step: the file name of <code>.pdf</code> file might have the name as the <code>%your .PostScript file file name%-1-eps-converted-to</code>, which should be the same name. For my case, I followed the help <a href="https://tex.stackexchange.com/questions/351724/eps-to-pdf-remove-eps-converted-to-from-pdf-filename">here</a>, and I add two lines in the preamble of my <code>Tex</code> file:</li>
+</ol></li>
+</ul>
+<pre><code>\usepackage{epstopdf}
+\epstopdfsetup{
+    suffix=,
+}
+</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li><p>Last, <code>PDFLatex</code>, you would get the .pdf file you want: for my case, <a href="/pdf/asymptote.pdf">asymptote</a>.</p></li>
+<li><p>Online Asymptote codeing: <a href="http://asymptote.ualberta.ca/" class="uri">http://asymptote.ualberta.ca/</a></p></li>
+<li><p>7/21/2022, I find this trick: first <code>PDFLatex</code> then, would get the same result for one pictures, and get the result for two pictures in which case the <code>Latex</code> does not work:
+<a href="https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote" class="uri">https://tex.stackexchange.com/questions/494374/cant-draw-two-pictures-in-asymptote</a></p></li>
+<li><p>11/27/2022, I find that we could get the final pdf with just one step:</p></li>
+</ol>
+<ul>
+<li><ol style="list-style-type: decimal">
+<li>open the command prompt</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>first try “pdflatex -shell-escape”</li>
+</ol></li>
+<li><ol start="3" style="list-style-type: decimal">
+<li>try “filename.tex”</li>
+</ol></li>
+</ul>
+<p>I learned from this <a href="https://tex.stackexchange.com/questions/458605/running-asymptote-code-in-latex">link</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

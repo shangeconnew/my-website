@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+<title>Longdivision in Latex - A Hugo website</title>
+<meta property="og:title" content="Longdivision in Latex - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas">Canvas</a></li>
+    
+    <li><a href="https://github.com/shangeconnew/my-website">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Longdivision in Latex</h1>
+
+    
+    <span class="article-date">2023-03-19</span>
+    
+
+    <div class="article-content">
+      
+
+
+
+
+<ul>
+<li><p>I tried to find a way to write long multiplication/division in Latex and found <a href="https://tex.stackexchange.com/questions/288084/latex-for-elementary-school-mathematics">here</a> very interesting;</p></li>
+<li><p>There is a <code>polynom</code> package, which could even do factorization directly: <a href="https://ctan.org/pkg/polynom?lang=en" class="uri">https://ctan.org/pkg/polynom?lang=en</a></p></li>
+<li><p>for example:</p></li>
+</ul>
+<p><span class="math inline">\(2X^3+X^2-7X+3=\polyfactorize{2X^3+X^2-7X+3}\)</span></p>
+<ul>
+<li><p><a href="https://ctan.org/pkg/fancyhdr">fancyhdr</a> – Extensive control of page headers and footers in LATEX2ε</p></li>
+<li><p><a href="https://ctan.org/pkg/longdivision?lang=en">longdivision</a> It is amazing!</p></li>
+</ul>
+<p><span class="math display">\[
+\longdivision[stage=0]{5.3}{37} \quad
+\longdivision[stage=1]{5.3}{37} \quad
+\longdivision[stage=2]{5.3}{37} \quad
+\longdivision[stage=3]{5.3}{37} \quad
+\longdivision[stage=4]{5.3}{37}
+\]</span></p>
+<ul>
+<li>It seems like it does not work in html file. For long multiplication, ChatGPT suggests the codes as follows:</li>
+</ul>
+<p><span class="math display">\[\begin{align*}
+    &amp;\phantom{0}\,1234 \\
+    &amp;\times\phantom{0}\,567 \\
+    \cline{1-2}
+    &amp;\phantom{0}\,7404 \\
+    &amp;\phantom{0}6170\phantom{0} \\
+    &amp;4936\phantom{00} \\
+    \cline{1-2}
+    &amp;\phantom{0}700278
+\end{align*}\]</span></p>
+<ul>
+<li>But there is no automatic calculation!</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

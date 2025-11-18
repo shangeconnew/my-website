@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+<title>Import big data set into R - A Hugo website</title>
+<meta property="og:title" content="Import big data set into R - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas">Canvas</a></li>
+    
+    <li><a href="https://github.com/shangeconnew/my-website">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Import big data set into R</h1>
+
+    
+    <span class="article-date">2022-12-30</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>I am trying to import a big <code>STATA</code> data set into <code>R</code>, but the size is over 5m which is the limit for <code>R</code>. I wonder if you could help me with that? Actually, the whole data set is available <a href="https://data.mendeley.com/datasets/kdx7bdwbrs/1">here</a></p>
+<p>The problem is solved by <a href="https://tilburgsciencehub.com/building-blocks/prepare-your-data-for-analysis/data-preparation/large-datasets-r/">Click on the broom icon in the top right window to remove all objects from the environment.</a>.</p>
+<p>When I export the data out of <code>R</code> by using code:</p>
+<pre><code>library(&quot;writexl&quot;)
+write_xlsx(GEIH_17_20_complete, &quot;GEIH_17_20_complete.xlsx&quot;)</code></pre>
+<p>I get this error message:</p>
+<pre><code>Error: Error in libxlsxwriter: &#39;Zip error ZIP_BADZIPFILE (use_zip64 option may be required).</code></pre>
+<p>I edit the code as:</p>
+<pre><code>library(&quot;writexl&quot;)
+write_xlsx(GEIH_17_20_complete, &quot;GEIH_17_20_complete.xlsx&quot;,use_zip64 = TRUE)</code></pre>
+<p>It works; but the excel file is over 700m; so I cannot open it.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

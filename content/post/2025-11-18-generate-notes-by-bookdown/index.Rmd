@@ -1,0 +1,15 @@
+---
+title: "Generate notes by Bookdown"
+author: ''
+date: "2025-11-18"
+slug: "generate-notes-by-bookdown"
+categories: []
+tags: []
+---
+
+- Open the index.Rmd file and make sure all the files are in the source file location and run the code as follows:
+
+```
+bookdown::clean_book()
+bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+```

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+<title>Proof of Variance Expression - A Hugo website</title>
+<meta property="og:title" content="Proof of Variance Expression - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas">Canvas</a></li>
+    
+    <li><a href="https://github.com/shangeconnew/my-website">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Proof of Variance Expression</h1>
+
+    
+    <span class="article-date">2023-12-18</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="proof-of-variance-expression" class="section level1">
+<h1>Proof of Variance Expression</h1>
+<p>Let’s prove the expression <span class="math inline">\(s^2 = \frac{1}{n^2} \sum_{i&lt;j}^n (x_i - x_j)^2\)</span> from the given expression <span class="math inline">\(s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2\)</span>.</p>
+<ol style="list-style-type: decimal">
+<li><p>Start with the definition of <span class="math inline">\(s^2\)</span>:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2 \]</span></p></li>
+<li><p>Expand the square:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i^2 - 2x_i\bar{x} + \bar{x}^2) \]</span></p></li>
+<li><p>Simplify the summation:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - 2\bar{x}\sum_{i=1}^{n} x_i + n\bar{x}^2\right) \]</span></p></li>
+<li><p>Use the definition of <span class="math inline">\(\bar{x}\)</span>:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - \frac{2}{n} \left(\sum_{i=1}^{n} x_i\right)^2 + n\left(\frac{1}{n} \sum_{i=1}^{n} x_i\right)^2\right) \]</span></p></li>
+<li><p>Combine terms:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n} \left(\sum_{i=1}^{n} x_i^2 - \frac{1}{n} \left(\sum_{i=1}^{n} x_i\right)^2\right) \]</span></p></li>
+<li><p>Express in terms of differences between pairs of data points:</p>
+<p><span class="math display">\[ s^2 = \frac{1}{n^2} \left( n\sum_{i=1}^{n} x_i^2 - \sum_{i=1}^{n} x_i^2 - 2 \sum_{i&lt;j}^n x_i x_j \right) \]</span></p></li>
+<li><p>Simplify more:</p></li>
+</ol>
+<p><span class="math display">\[ s^2 = \frac{1}{n^2} \left( (n-1)\sum_{i=1}^{n} x_i^2 -2 \sum_{i&lt;j}^n x_i x_j \right) \]</span></p>
+<ol start="8" style="list-style-type: decimal">
+<li>Note that:</li>
+</ol>
+<p><span class="math display">\[  \sum_{i&lt;j}^n \left(x_i^2 + x_j^2\right) \]</span></p>
+<p><span class="math display">\[
+\begin{array}{rl}
+j=2: &amp;  \left(x_1^2 + x_2^2\right)\\
+j=3: &amp; \left(x_1^2 + x_2^2+2x_3^2\right) \\
+j=4: &amp; \left(x_1^2 + x_2^2+x_3^2+3x_4^2\right)\\
+\vdots \text{ } &amp; \text{ } \vdots\\
+j=n: &amp; \left(x_1^2 + x_2^2+x_3^2+\cdots +(n-1)x_n^2\right) \\
+\end{array}
+\]</span></p>
+<p>So <span class="math display">\[  \sum_{i&lt;j}^n \left(x_i^2 + x_j^2\right)=(n-1)\sum_{i=1}^{n} x_i^2 \]</span></p>
+<ol start="9" style="list-style-type: decimal">
+<li>Continue step 7:</li>
+</ol>
+<p><span class="math display">\[ s^2 = \frac{1}{n^2} \left( \sum_{i&lt;j}^n \left(x_i^2 + x_j^2\right) -2 \sum_{i&lt;j}^n x_i x_j \right)=  \frac{1}{n^2} \sum_{i&lt;j}^n (x_i - x_j)^2\]</span></p>
+<p>Thus, we have proved the expression <span class="math inline">\(s^2 = \frac{1}{n^2} \sum_{i&lt;j}^n (x_i - x_j)^2\)</span> from the given expression <span class="math inline">\(s^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2\)</span>.</p>
+<ul>
+<li>With help <code>ChatGPT</code> and reference: An Alternate Proof of Samuelson’s Inequality and Its Extensions, The American Statistician Vol. 43, No. 1 (Feb., 1989), pp. 46-47 (2 pages); the paper is
+<a href="https://www.jstor.org/stable/2685171">here(link)</a> and <a href="/pdf/Farnum-AlternateProofSamuelsons-1989.pdf">file.</a></li>
+</ul>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

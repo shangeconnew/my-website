@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{asymptote}
+\usepackage{epstopdf}
+\epstopdfsetup{
+    suffix=,
+}
+\begin{document}
+Hello.
+I like to make pics with Asymptote like this one:
+\begin{figure}[h]
+\begin{asy}
+    import graph;
+    size(1inch);
+    filldraw(circle((0,0),1),yellow,black);
+    fill(circle((-.3,.4),.1),black);
+    fill(circle((.3,.4),.1),black);
+    draw(arc((0,0),.5,-140,-40));
+\end{asy}
+\end{figure}
+\par It makes me happy,
+since I can still type my normal LaTeX stuff around it:
+\(\int_0^{\pi}{\sin{x}}\,dx=2\)
+
+\begin{figure}[h]
+\begin{asy}
+real u = 40;
+// just a comment
+draw( (0,0) .. (u,u) .. (u,0) -- (0,0) );
+\end{asy}
+\end{figure}
+
+\end{document} 

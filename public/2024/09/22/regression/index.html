@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.91.2" />
+
+
+<title>REGRESSION AND RELATIONSHIP IN STATISTICS - A Hugo website</title>
+<meta property="og:title" content="REGRESSION AND RELATIONSHIP IN STATISTICS - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://signin.k-state.edu/WebISO/login?service=https%3A%2F%2Fk-state.instructure.com%2Flogin%2Fcas">Canvas</a></li>
+    
+    <li><a href="https://github.com/shangeconnew/my-website">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">REGRESSION AND RELATIONSHIP IN STATISTICS</h1>
+
+    
+    <span class="article-date">2024-09-22</span>
+    
+
+    <div class="article-content">
+      <h1 id="regression">Regression</h1>
+<p>In the original context used by Sir Francis Galton, the term &ldquo;regress&rdquo; referred to the statistical phenomenon of <strong>regression toward the mean</strong>. This means that if a particular trait (such as height) in one generation is unusually extreme (e.g., very tall or very short), the corresponding trait in the next generation tends to be closer to the average or mean value.</p>
+<p>So, &ldquo;regress&rdquo; in this context means to <strong>move back or return</strong> toward a central or average value. Galton observed that children of very tall parents, for example, were likely to be tall but not as tall as their parents—thus, &ldquo;regressing&rdquo; toward the population average.</p>
+<p>In modern regression analysis, &ldquo;regress&rdquo; no longer carries the literal meaning of moving back toward an average but instead refers to the statistical method used to estimate <strong>relationships</strong>between variables.</p>
+<h1 id="types-of-relationships-between-variables">Types of Relationships Between Variables</h1>
+<h2 id="1-causal-relationship">1. Causal Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: One variable directly influences or causes a change in another.</li>
+<li><strong>Example</strong>: Education causes an increase in worker productivity.</li>
+<li><strong>Tools</strong>: Regression analysis, randomized controlled trials (RCTs).</li>
+</ul>
+<h2 id="2-correlational-relationship">2. Correlational Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: Two variables change together, but causality is not implied.</li>
+<li><strong>Example</strong>: Ice cream sales and drowning rates increase together in summer.</li>
+<li><strong>Tools</strong>: Correlation coefficient, scatterplots.</li>
+</ul>
+<h2 id="3-positive-relationship-direct">3. Positive Relationship (Direct)</h2>
+<ul>
+<li><strong>Definition</strong>: Both variables increase together.</li>
+<li><strong>Example</strong>: Height and weight often have a positive relationship.</li>
+<li><strong>Tools</strong>: Linear regression, correlation coefficient.</li>
+</ul>
+<h2 id="4-negative-relationship-inverse">4. Negative Relationship (Inverse)</h2>
+<ul>
+<li><strong>Definition</strong>: As one variable increases, the other decreases.</li>
+<li><strong>Example</strong>: Higher prices lead to lower demand.</li>
+<li><strong>Tools</strong>: Linear regression, correlation coefficient.</li>
+</ul>
+<h2 id="5-no-relationship-independence">5. No Relationship (Independence)</h2>
+<ul>
+<li><strong>Definition</strong>: Variables do not affect each other.</li>
+<li><strong>Example</strong>: Shoe size and income level.</li>
+<li><strong>Tools</strong>: Chi-squared test, correlation coefficient.</li>
+</ul>
+<h2 id="6-nonlinear-relationship">6. Nonlinear Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: The relationship is not linear and could follow a different pattern.</li>
+<li><strong>Example</strong>: Age and income may follow a bell curve.</li>
+<li><strong>Tools</strong>: Polynomial regression, nonlinear regression.</li>
+</ul>
+<h2 id="7-confounding-relationship">7. Confounding Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: A third variable affects both variables of interest.</li>
+<li><strong>Example</strong>: Coffee consumption and heart disease with smoking as a confounder.</li>
+<li><strong>Tools</strong>: Multiple regression.</li>
+</ul>
+<h2 id="8-moderating-relationship">8. Moderating Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: The relationship between two variables changes depending on a third variable.</li>
+<li><strong>Example</strong>: The effect of exercise on weight loss might vary by age.</li>
+<li><strong>Tools</strong>: Interaction terms in regression.</li>
+</ul>
+<h2 id="9-mediating-relationship">9. Mediating Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: One variable affects another through a third variable.</li>
+<li><strong>Example</strong>: Education increases income, which improves health.</li>
+<li><strong>Tools</strong>: Mediation analysis.</li>
+</ul>
+<h2 id="10-spurious-relationship">10. Spurious Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: A false or misleading relationship due to coincidence or an unmeasured third variable.</li>
+<li><strong>Example</strong>: Shoe size and reading ability in children, but the actual factor is age.</li>
+<li><strong>Tools</strong>: Controlling for confounders.</li>
+</ul>
+<h2 id="11-bidirectional-relationship">11. Bidirectional Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: Both variables influence each other.</li>
+<li><strong>Example</strong>: Economic growth and technology innovation.</li>
+<li><strong>Tools</strong>: Simultaneous equations, structural equation modeling.</li>
+</ul>
+<h2 id="12-interaction-effect">12. Interaction Effect</h2>
+<ul>
+<li><strong>Definition</strong>: The effect of one variable depends on the level of another.</li>
+<li><strong>Example</strong>: The effect of training on productivity varies by skill level.</li>
+<li><strong>Tools</strong>: Regression models with interaction terms.</li>
+</ul>
+<h2 id="13-latent-relationship">13. Latent Relationship</h2>
+<ul>
+<li><strong>Definition</strong>: The relationship between variables is inferred and not directly observed.</li>
+<li><strong>Example</strong>: Intelligence inferred from test scores.</li>
+<li><strong>Tools</strong>: Factor analysis, structural equation modeling (SEM).</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
