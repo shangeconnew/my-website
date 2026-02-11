@@ -1,0 +1,21 @@
+---
+title: "How to tag PDF in Latex"
+author: ''
+date: "2026-02-11"
+slug: "how-to-tag-pdf-in-latex"
+categories: []
+tags: []
+---
+
+With the help of ChatGPT, I finally learn how to add tag in PDF via Latex:
+
+- The tagged file is `Lec7` in Sides folder of `stat250_Spr26`;
+
+There are two ways to run the tagged file:
+
+- In `bash`: `lualatex Lec7_dispersion_handout_tagged.tex`
+
+- In `RStudio` : `tinytex::latexmk("Lec7_dispersion_handout_tagged.tex", engine = "lualatex")`
+
+
+
