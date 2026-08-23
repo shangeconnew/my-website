@@ -1,0 +1,637 @@
+---
+title: "The Joy of Learning"
+author: "Heisuke Hironaka (広中平祐)"
+date: "2026-08-23"
+slug: "the-joy-of-learning"
+categories: []
+tags: []
+---
+
+- By Heisuke Hironaka (広中平祐)
+
+# Page 1
+
+First of all, congratulations on the 50th anniversary of the Japanese Electrophoresis Society.
+
+Coincidentally, the university where I work is also celebrating its 50th anniversary this year. So I feel a certain affinity with you. I was asked to give this commemorative lecture, even though electrophoresis is a field with many highly specialized techniques, particularly techniques used in medical examinations. I have heard various stories about these techniques, and I have been quite surprised by how many different methods there are.
+
+Unfortunately, however, I do not really have anything directly useful to say to you today. Instead, I would like to speak a little about my own experiences—or perhaps about the perspective that I have gradually developed through those experiences. The title is “The Joy of Learning,” but I do not intend to give a particularly academic talk. Rather, I would simply like to tell you about some things that I have felt and experienced.
+
+This happened twenty or thirty years ago. I was attending an international conference held in a small town in the south of France, near the border between France and Switzerland. There was a castle there, and the conference was held in that castle.
+
+Most of the participants were young mathematicians from Europe. I had been invited from Japan and spent about a week there. Every morning and afternoon we had lectures and research discussions.
+
+One day, after the seminars had finished, I was talking with two young mathematicians—one was a professor at a university in Italy, and the other a professor at the University of Bonn in Germany.
+
+The three of us began talking about what one might call the joy of doing research.
+
+For someone whose profession is research, what is the real joy of being a researcher?
+
+At night, you may lie in bed thinking about a problem. You may suddenly think of an idea, get up, and write something down. You may pick up something that seems promising, try it, and then abandon it. After studying something for a while, you may forget about it altogether.
+
+But then, five or six years later, when you happen to look at an old notebook, you may find some wonderful equation still written there.
+
+You may think:
+
+“Ah! I received this idea from the gods.”
+
+That is the kind of unconscious or unexpected joy that sometimes comes to a researcher.
+
+The German mathematician, however, said something quite different.
+
+He said that what he found most satisfying was to choose an important problem and then continue thinking about it for five or six years—working on it steadily until he finally solved it.
+
+For him, research meant selecting a problem that would take years of sustained effort and then solving it through perseverance. It was something he could feel proud of, because it was work that he himself had accomplished.
+
+Another person said that human beings accomplish things through the accumulation of effort.
+
+This reminded me of something I once read about Thomas Edison.
+
+Someone asked Edison how much of his success was due to effort and how much was due to inspiration.
+
+Edison is famous for supposedly saying that it was
+
+**99 percent perspiration and 1 percent inspiration**.
+
+But the point is not simply that effort is everything.
+
+Without that remaining one percent, the other ninety-nine percent might not lead anywhere.
+
+When I think about these different attitudes, I realize that they represent two different ways of thinking. Of course, there are many individual differences, but perhaps there are also differences in the way people in different cultures think about research.
+
+The natural sciences and mathematics are similar in this respect. When people work in the sciences, surprisingly large advances sometimes come from chance discoveries.
+
+There is a term for this: **serendipity**.
+
+For example, in medicine, Edward Jenner noticed that milkmaids who had contracted cowpox did not seem to contract smallpox. This observation eventually led to vaccination.
+
+Another example is Fleming's discovery of penicillin in the twentieth century. He noticed that bacteria failed to grow around a certain mold. That accidental observation eventually led to an enormously important new medical technology.
+
+In this sense, the natural sciences are still, in a way—
+
+**[Continued on Page 2]**
+
+`The first page ends mid-thought; Page 2 continues Hironaka’s discussion of why the natural sciences are still “young,” then moves into Mozart, Bruckner, Easter Island, and the nature of discovery.`
+
+# Page 2
+
+...still a young field of study, in a certain sense.
+
+The same is true of mathematics. Mathematics is said to have a history of several thousand years, but modern mathematics is really only about three hundred years old—perhaps even less than that.
+
+As research continues, the subjects we study become increasingly specialized. As a result, there are many areas in which serious research has only been carried out for the past few decades.
+
+There is, therefore, still a great deal that we do not understand.
+
+Mathematics also has this aspect to it. However, generally speaking, people tend to think of mathematics as a field governed entirely by logic. If that were really the case, then the kind of unexpected discovery I have just described might seem unrelated to mathematics.
+
+But mathematics has its own kind of **serendipity**, and that is one of the things that makes it interesting.
+
+Sometimes an accidental discovery leads to an unexpectedly important development.
+
+There are also discoveries that arise through extraordinary flashes of inspiration.
+
+For example, let us consider the composer **Mozart**.
+
+Mozart was said to compose music in a remarkable way. When he was walking alone through the streets of Vienna, or when he suddenly woke up in the middle of the night, a piece of music might come to him all at once.
+
+It was not as though he had deliberately worked hard to create it.
+
+He would simply hear the music in his mind.
+
+Then, after returning home, he would write it down.
+
+Mozart is said to have remarked that the music came to him almost instantaneously in a complete form. All he had to do afterward was take his time and write the notes onto paper.
+
+That is one kind of creativity.
+
+But consider another composer, **Anton Bruckner**, also an Austrian composer.
+
+His method was very different from Mozart's.
+
+One day, someone asked Bruckner something like this:
+
+“Professor, I hear that when Mozart went out walking in the morning, some wonderful inspiration would suddenly descend upon him, and a magnificent piece of music would appear in his mind. Does anything like that ever happen to you?”
+
+Bruckner answered:
+
+“Yes, certainly. That happens to me too.”
+
+The person then asked:
+
+“When does it happen?”
+
+Bruckner replied:
+
+“Well, after I have worked all day and become exhausted, I go down to the stream and wash my feet. Then, while I am eating my lunch, suddenly a wonderful melody comes to me.”
+
+So even though such moments may appear mysterious, they do not necessarily occur independently of effort.
+
+Compared with Mozart, Bruckner was an extremely serious and painstaking composer. It is said that he would revise his compositions again and again, and that he sometimes continued revising the same work for many years.
+
+So we have two very different kinds of creativity: something that seems to arrive suddenly, almost as a gift, and something that emerges only after an enormous accumulation of effort.
+
+Another example concerns **Easter Island**.
+
+Easter Island is a small, isolated island in the Pacific Ocean.
+
+It was discovered by Europeans on Easter Sunday in 1722, and that is why it became known as Easter Island.
+
+There are more than two hundred enormous stone statues on the island.
+
+Some of these statues weigh more than twenty tons.
+
+The remarkable question is:
+
+**How did the people who lived there move such enormous stones?**
+
+When the island was discovered, there did not appear to be any technology capable of transporting such huge stones.
+
+Imagine a stone about one meter fifty centimeters high, perhaps two meters high, weighing more than a ton.
+
+How could people move such a stone for a distance of a meter or a meter and a half?
+
+And how could they then raise it upright?
+
+The stone statues were clearly there, so somehow it must have been done.
+
+But no one knew how.
+
+This mystery became quite famous. There were even fantastic theories about it.
+
+Some people said that perhaps **extraterrestrials—ETs—had come to the island** and transported the statues in flying saucers.
+
+This idea was sometimes presented as evidence that extraterrestrials had visited Earth.
+
+But later, the Norwegian explorer **Thor Heyerdahl**, who had traveled around the world and was also famous as an anthropologist and adventurer, went to Easter Island.
+
+He did not accept the extraterrestrial explanation.
+
+Instead, he asked:
+
+**Could ordinary human beings have done this using only the tools available to the islanders?**
+
+So he made a proposal to the chief of the island.
+
+He offered the chief one hundred dollars and said, in effect:
+
+“Try raising one of these fallen stone statues.”
+
+The chief agreed.
+
+He gathered about ten young men from the village.
+
+Each of them brought a wooden pole. The poles varied in size and thickness.
+
+Then the chief began singing a traditional song.
+
+As he sang, the men used their wooden poles to pry at the stone statue, little by little.
+
+They moved around the statue, inserting their poles underneath it and lifting it slightly.
+
+When a small gap appeared, they placed a small stone underneath.
+
+Then they moved to another point and repeated the process.
+
+A little here.
+
+A little there.
+
+Again and again.
+
+At the end of the first day, they stopped.
+
+The next day, they returned and continued.
+
+After about a week—
+
+**[Continued on Page 3]**
+
+`Page 3 continues this Easter Island experiment and then uses it to discuss how creative solutions arise when we stop assuming that a problem is impossible. Hironaka then turns to invention, Einstein, the role of science in society, and an especially interesting distinction between scientific discovery and invention.`
+
+# Page 3
+
+...they had raised the stone to a height of more than two meters.
+
+They gradually raised it higher and higher, and then, matching their movements to the song, they finally brought the stone statue upright.
+
+This story is sometimes cited when people discuss what we call inspiration.
+
+In other words, when we face a difficult problem, we often think about it and struggle with it, and then suddenly an idea comes to us—perhaps unconsciously.
+
+But usually, before such an idea appears, we have spent a long time accumulating knowledge and experience.
+
+When a problem demands some kind of dramatic change in our thinking, we may suddenly experience something that feels like inspiration.
+
+That is one way of looking at it.
+
+When I was a student, I once encountered a problem on an engineering entrance examination.
+
+The problem was to figure out how to move a very large stone using only one finger, and to derive the necessary formula.
+
+In reality, of course, you cannot simply move such a stone with one finger.
+
+But the important thing was to identify the moment when the stone begins to move and coordinate your action precisely with that moment.
+
+If you do that, something that appears impossible may become possible.
+
+When you try to solve a problem all at once, you may not be able to do it.
+
+But if you accumulate small actions, if you gradually build things up, then sometimes you can accomplish something that at first seemed impossible.
+
+Or sometimes a result emerges that you could never have imagined through ordinary thinking.
+
+I think that is what we might call serendipity.
+
+Actually, when we think about things in this way, the Easter Island story fits very well with what the German mathematician I mentioned earlier was saying.
+
+In other words, a great achievement may emerge from the steady accumulation of effort.
+
+There is also the question of invention.
+
+When we talk about inventors, we often imagine someone having a brilliant flash of inspiration.
+
+I once saw an interesting movie. The main character was an inventor.
+
+He was extremely sincere and hardworking, but he was also a little absent-minded.
+
+He would produce one invention after another.
+
+His inventions were not necessarily enormous discoveries. They were small inventions—things that might make daily life just a little more convenient.
+
+But he kept inventing.
+
+Eventually, however, his inventions began to pile up faster than they could be used.
+
+His company began to accumulate inventory, production could not be stopped, and the workers in the textile factory where he worked gradually lost their jobs. Businesses went bankrupt, unemployment increased, and society fell into turmoil.
+
+In other words, although he was an inventor, the inventions themselves began to create problems.
+
+The inventor, however, continued pursuing his inventions.
+
+Whenever inspiration struck, he would stop whatever he was doing and chase after the new idea.
+
+If he was carrying an umbrella, or holding a hoe, or carrying a knife—whatever he happened to have—he would suddenly run off after the idea.
+
+The people around him eventually became tired of this behavior.
+
+Whenever he began chasing a new invention, they would try to stop him from starting yet another project.
+
+Then, at the end of the movie, he says something like:
+
+“Ah, I just thought of something wonderful.”
+
+And the movie ends there.
+
+Probably, at the very moment he had his next flash of inspiration, acid rain began to fall.
+
+That was the joke at the end of the film.
+
+This kind of story about inventors is amusing, but there is also a serious side to it.
+
+Today we face environmental problems and many other difficulties related to scientific and technological development.
+
+If we simply pursue science and technology without thinking about where they are taking us, we may eventually find ourselves in trouble.
+
+On the other hand, if science and technology continue to develop, their content becomes increasingly difficult for ordinary people to understand.
+
+So there is a problem of **how scientists should explain what they are doing to the general public**.
+
+Recently, there has also been a great deal of discussion about the human genome.
+
+On one side, there are scientists who devote themselves entirely to exploring the mysteries of nature.
+
+On the other side, there are people who think about what those discoveries mean for humanity.
+
+This is, in a sense, similar to the debate between **J. Robert Oppenheimer and Edward Teller**.
+
+When I was young, I attended a lecture in which one of them argued that scientists must conduct research while also maintaining a sense of **social responsibility**.
+
+During the twentieth century, scientists came to realize that research could no longer be pursued entirely without considering its consequences for society.
+
+There is one more thing I would like to say.
+
+For scientists, researchers, and people engaged in creative work, there is another kind of joy.
+
+That is the joy that arises when **people who share the same goal—or perhaps even people pursuing different goals—meet one another and form a deep human relationship**.
+
+An ordinary encounter can sometimes become an extraordinarily profound encounter.
+
+This is not a story about scientists, but there is a story about the composer **Tchaikovsky**.
+
+When he was young, one of his own compositions was performed at a concert.
+
+Sitting in the audience was another famous composer, about twelve years older than Tchaikovsky.
+
+Tchaikovsky was extremely nervous as the performance began.
+
+He kept watching the other composer's face out of the corner of his eye, wondering what he thought of the music.
+
+The other man was deeply moved.
+
+He believed that Tchaikovsky was following the right path as a composer.
+
+And that man was—
+
+**[Continued on Page 4]**
+
+`Page 3 thus ends just before Hironaka identifies the older composer. On Page 4, he completes the Tchaikovsky story and then tells a particularly interesting story about Henry Ford and Thomas Edison, before turning to his own childhood and how he became interested in mathematics.`
+
+# Page 4
+
+...**Anton Rubinstein**.
+
+This is what happened. Tchaikovsky was still young, and when Rubinstein heard his music, he was deeply moved by it.
+
+There are other stories of this kind.
+
+One of them concerns **Henry Ford**.
+
+Ford was one of the first people in the world to succeed in the mass production of automobiles.
+
+At that time, automobiles already existed, of course, but they did not travel very fast and were not yet widely used.
+
+In Britain, for example, there were regulations requiring a person carrying a red flag to walk in front of an automobile as it traveled.
+
+In other words, automobiles existed, but they were not yet really practical.
+
+Henry Ford lived in the United States, which was a very large country. America was also a country with a shortage of labor.
+
+Ford therefore thought:
+
+**Wouldn't it be wonderful if we could make automobiles cheaply enough that ordinary people could afford them?**
+
+With this idea, he set out to establish **mass production of inexpensive automobiles**.
+
+As he was thinking about this, he happened to hear about a new invention by **Thomas Edison**—the internal-combustion engine.
+
+At that time, Ford was working for an electric-light company.
+
+But on his own, he had also been conducting research on gasoline engines.
+
+One day, he was invited to a party held by his company.
+
+At that party, he had an opportunity to meet Thomas Edison.
+
+Ford was only about **sixteen years younger** than Edison.
+
+During the gathering, Henry Ford explained his idea of the gasoline engine to Edison.
+
+Edison listened carefully.
+
+Then Edison **pounded the table** and said:
+
+“That's it! You've got it! Keep at it!”
+
+Edison himself had tremendous confidence in electricity.
+
+He believed electricity could be used for almost anything.
+
+Yet, when he heard Ford's explanation of the gasoline engine, he immediately understood its significance.
+
+Ford later said that this encounter had an enormous effect on him.
+
+He had been working on the idea with uncertainty, wondering whether it would really succeed.
+
+But Edison—a man he greatly admired—had listened to him and said, in effect:
+
+“**Go ahead. Do it**.”
+
+That encouragement gave Ford tremendous confidence.
+
+Later, when Ford's company had grown enormously and was worth more than anything he had imagined at the time of that dinner, Ford invited Edison to one of his parties.
+
+Ford had already begun producing automobiles on a massive scale.
+
+At the party, Ford seated Edison at the table where Edison had once encouraged him.
+
+Ford asked him:
+
+“Do you remember what percentage of this success belongs to you?”
+
+Edison replied that Ford had achieved it through his own efforts.
+
+But Ford said, in effect:
+
+“No. **99.9 percent** may have come from my own effort. But without the remaining **0.1 percent**—the encouragement you gave me that day—I might never have accomplished it.”
+
+A seemingly simple encounter can have an extraordinarily great influence on a person.
+
+Of course, we are influenced not only by the people we meet directly.
+
+Sometimes an influence is far less conscious.
+
+We may read something in a book, hear something from someone, or encounter some idea, and it remains inside us.
+
+Then, later, when we approach some problem, that memory suddenly comes back to us.
+
+We may not even realize where it came from.
+
+But it can become an enormous springboard for us.
+
+I myself have been influenced by many different people.
+
+Let me tell you something from my childhood.
+
+When I was a child, I was very interested in **fishing**.
+
+At the time, I lived in a small farming village.
+
+When I came home from elementary school, my uncle would sometimes call to me and take me to the seashore.
+
+We would go fishing.
+
+I would sit there, watching the waves and listening to the sound of the water breaking against the shore.
+
+My uncle studied **physics**.
+
+He would talk to me about things like the laws of physics.
+
+At that age, of course, I had no real idea what physics was.
+
+But I was fascinated by the fact that my uncle was studying it.
+
+Eventually, my uncle became a physicist.
+
+Later, he wrote a book.
+
+I read that book repeatedly.
+
+I continued using that book until I went abroad to study at the age of twenty-six.
+
+The book described how Newton's ideas developed.
+
+It explained the meaning of Newton's words by using the image of a person diving deep into the sea, searching along the seabed with his hands for a shell, finding it, and then rising back to the surface.
+
+Opening the shell and discovering a beautiful pearl inside—that, the book said, represented the **joy of discovery**.
+
+That image made a very strong impression on me.
+
+Perhaps that was one of the things that first awakened in me a feeling for the joy of discovering something.
+
+Until my first year of high school, I thought that I would become a **physicist**.
+
+So I studied physics quite seriously.
+
+However, there was also another influence.
+
+When I was in high school, there was a teacher at Hiroshima University named **Professor Maeda**, who taught mathematics.
+
+I was deeply impressed by something he said:
+
+“**Mathematics is a mirror that reflects the world**.”
+
+I wondered:
+
+**What does that mean? In what sense does mathematics reflect the world?**
+
+At that time, I did not really understand it.
+
+But those words remained with me.
+
+By then, I had been studying mathematics for twenty or thirty years—
+
+**[Continued on Page 5]**
+
+`Page 4 ends in the middle of Hironaka's reflection on “Mathematics is a mirror that reflects the world.” The final page explains how he eventually came to understand that statement, how he chose mathematics over physics, and then tells the story of his relationship with Oscar Zariski at Harvard, ending with Hironaka's broader reflection on the importance of human encounters in one's life.`
+
+# Page 5
+
+...before I finally began to understand what those words meant.
+
+Year after year, as I continued doing mathematics, I gradually came to understand them.
+
+At first, for about two years, I studied mathematics without really knowing where it would lead me.
+
+But eventually, I became increasingly absorbed in it.
+
+I found mathematics fascinating.
+
+And over the following three years, I devoted myself to it completely.
+
+Then I went abroad to study.
+
+After going overseas, within about three months I met a person who would have an enormous influence on my life.
+
+That person was a mathematician who became my teacher.
+
+Meeting such a person is a remarkable thing.
+
+There are encounters that determine the direction of an entire life.
+
+When I met him, I felt that I had encountered someone from whom I truly wanted to learn.
+
+I studied under him and continued working in mathematics.
+
+Looking back, I think that the important thing is not simply what a person studies.
+
+Of course, knowledge is important.
+
+Effort is important.
+
+Inspiration is important.
+
+**But encounters with other people are also extraordinarily important.**
+
+You may meet someone and hear only a few words from that person.
+
+At the time, those words may not seem particularly significant.
+
+But they remain somewhere inside you.
+
+Years later, perhaps decades later, they may suddenly come back to you and acquire an entirely new meaning.
+
+That is one of the wonderful things about learning.
+
+When I was studying abroad, I met many mathematicians.
+
+There were people whose ways of thinking were completely different from mine.
+
+There were people from different countries and different cultures.
+
+Through mathematics, however, we could communicate with one another.
+
+We could share the excitement of discovering something.
+
+For me, that became one of the great joys of mathematics.
+
+The joy of scholarship is therefore not simply the joy of obtaining an answer.
+
+It is also the joy of **thinking**, of **discovering**, and of **meeting people through learning**.
+
+Later, I went to the United States and worked at **Harvard University**.
+
+There I met **Oscar Zariski**, who became one of the most important teachers in my life.
+
+He was a great mathematician.
+
+When I first met him, I was still young and had much to learn.
+
+But he gave me problems to think about, listened to my ideas, and encouraged me.
+
+I continued my research under his influence for many years.
+
+A teacher does not simply give a student knowledge.
+
+Sometimes the most important thing a teacher gives a student is a **direction**—a sense that there is something worth pursuing.
+
+There is another mathematician I would like to mention, **Donald Spencer**.
+
+He was at Princeton, and later had connections with MIT.
+
+I had opportunities to meet and talk with him as well.
+
+What impressed me most about people like this was not simply their mathematical ability.
+
+It was their attitude toward younger people.
+
+They were willing to listen.
+
+They were willing to encourage someone who had not yet accomplished very much.
+
+That kind of encouragement can change a person's life.
+
+Just as Edison's few words encouraged Ford, a few words from a teacher can give a young researcher the confidence to continue.
+
+As I look back on my own life, I realize that I have been fortunate to have had such encounters again and again.
+
+Some of the people who influenced me were considerably older than I was.
+
+Some remained my teachers for many years.
+
+One of them lived to the age of **ninety-six**.
+
+There were occasions when I met him again after many years, and each meeting brought back the relationship we had formed long before.
+
+These relationships are not created by scholarship alone.
+
+They arise because people are connected through the common experience of **seeking something they do not yet know**.
+
+So, when I speak of “**the joy of learning**,” I do not mean simply the pleasure of accumulating knowledge.
+
+There is the joy of making an unexpected discovery.
+
+There is the joy that comes after years of persistent effort.
+
+There is the joy of suddenly seeing a solution that had previously been invisible.
+
+And there is the joy of meeting other people through one's pursuit of knowledge.
+
+These things become intertwined.
+
+They become part of one's life.
+
+When we are young, we cannot know which encounter, which book, which teacher, or which apparently insignificant experience will later become important.
+
+But something may remain inside us for many years and then, at an unexpected moment, reveal its meaning.
+
+That, I believe, is one of the deepest joys of scholarship and learning.
+
+**Thank you very much.**
+```
+That completes the five-page article. The closing portion of the original indeed refers to Hironaka’s years abroad, MIT, a mathematician who lived to 96, and the importance of the people he encountered during his mathematical life.
+
+One caution about this translation: the PDF’s Japanese text extraction is quite poor—many kanji and substantial portions of sentences are missing from the machine-readable text. I have used the rendered pages to reconstruct the meaning, but for a scholarly or publishable translation, I would want to go through the page images sentence by sentence rather than claim that every sentence above is literal.
+```
+
+- [Heisuke Hironaka (広中平祐)](/pdf/JoyofLearning.pdf)
